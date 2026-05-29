@@ -12,7 +12,7 @@ function trackNode(track) {
   const status =
     typeof track.correct === "boolean"
       ? `<span class="track__status ${track.correct ? "is-correct" : "is-wrong"}">${
-          track.correct ? "Correct" : "Wrong"
+          track.correct ? "Correct (Status)" : "Wrong (Status)"
         }</span>`
       : "";
   const predictionClass = track.prediction_class
