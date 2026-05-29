@@ -2,6 +2,10 @@
 
 Static audio demo page for WalkReOnline.
 
+Public page:
+
+https://blind-review-demo.github.io/WalkReOnline-demo/
+
 Open `index.html` through GitHub Pages or a local static server.
 
 ```bash
