@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learning to Hear While Walking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow">Online ego-noise adaptation demo</p>
+        <h1>Learning to Hear While Walking</h1>
+        <p class="lead">
+          Audio examples for online self-noise adaptation in walking robots.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section--legend">
+        <div>
+          <h2>Demo Samples</h2>
+          <p>Each set shows references first, followed by separated target estimates from each method.</p>
+          <p class="score-note">
+            CAP Score↑ is the CLAP audio embedding cosine similarity between the target and the
+            separated estimate. SAJ Score↑ is the overall separation judgment score. Higher is better.
+          </p>
+        </div>
+        <figure class="colorbar">
+          <img id="colorbarImage" alt="Spectrogram color scale" />
+          <figcaption id="colorbarCaption"></figcaption>
+        </figure>
+      </section>
+
+      <div id="samples" class="samples"></div>
+    </main>
+
+    <footer>
+      <p>Generated from the current WalkReOnline experiment outputs.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
