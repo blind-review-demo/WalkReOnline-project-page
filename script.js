@@ -15,11 +15,15 @@ function trackNode(track) {
           track.correct ? "Correct" : "Wrong"
         }</span>`
       : "";
-  const prediction = track.prediction ? `<span class="track__prediction">Prediction: ${track.prediction}</span>` : "";
+  const predictionClass = track.prediction_class
+    ? `<span class="track__prediction">Category (Prediction): ${track.prediction_class}</span>`
+    : "";
+  const predictionStatus = (track.prediction_status || track.prediction)
+    ? `<span class="track__prediction">Status (Prediction): ${track.prediction_status || track.prediction}</span>`
+    : "";
   const scores =
     typeof track.cap_score === "number" || typeof track.saj_score === "number"
-      ? `<span class="track__score">CAP Score↑: ${fmtScore(track.cap_score)}</span>
-         <span class="track__score">SAJ Score↑: ${fmtScore(track.saj_score)}</span>`
+      ? `<span class="track__score">CLAP Score↑: ${fmtScore(track.cap_score)} | SAJ Score↑: ${fmtScore(track.saj_score)}</span>`
       : "";
   item.innerHTML = `
     <img class="spectrogram" src="${track.spectrogram}" alt="${track.label} spectrogram" loading="lazy" />
@@ -27,7 +31,8 @@ function trackNode(track) {
       <span class="track__label">${track.label}</span>
       ${status}
     </div>
-    ${prediction}
+    ${predictionClass}
+    ${predictionStatus}
     ${scores}
     <audio controls preload="none" src="${track.audio}"></audio>
   `;
@@ -55,8 +60,8 @@ function sampleNode(sample, index) {
       <div class="sample__meta">
         <span class="pill">Robot: ${sample.robot}</span>
         <span class="pill">SNR: ${sample.snr_db} dB</span>
-        <span class="pill">Class: ${sample.class}</span>
-        <span class="pill">Ground Truth: ${sample.ground_truth}</span>
+        <span class="pill">Category (Ground Truth): ${sample.class}</span>
+        <span class="pill">Status (Ground Truth): ${sample.ground_truth}</span>
       </div>
     </header>
     <h3>References</h3>
