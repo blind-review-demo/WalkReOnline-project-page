@@ -2,7 +2,7 @@ const samplesRoot = document.querySelector("#samples");
 const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
 const attributionRows = document.querySelector("#attributionRows");
-const dataUrl = "assets/data/demo-data.json?v=20260530-attributions";
+const dataUrl = "assets/data/demo-data.json?v=20260530-attribution-columns";
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
