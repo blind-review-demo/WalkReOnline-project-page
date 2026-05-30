@@ -15,8 +15,12 @@ function trackNode(track) {
           track.correct ? "Status: Correct" : "Status: Wrong"
         }</span>`
       : "";
-  const predictionClass = track.prediction_class
-    ? `<span class="track__prediction">Category (Prediction): ${track.prediction_class}</span>`
+  const predictionCategories =
+    Array.isArray(track.prediction_top3) && track.prediction_top3.length
+      ? track.prediction_top3.map((category, index) => `${index + 1}. ${category}`).join(" | ")
+      : track.prediction_class;
+  const predictionClass = predictionCategories
+    ? `<span class="track__prediction">Category (Prediction): ${predictionCategories}</span>`
     : "";
   const predictionStatus = (track.prediction_status || track.prediction)
     ? `<span class="track__prediction">Status (Prediction): ${track.prediction_status || track.prediction}</span>`
