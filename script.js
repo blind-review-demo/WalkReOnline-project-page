@@ -1,6 +1,7 @@
 const samplesRoot = document.querySelector("#samples");
 const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
+const attributionRows = document.querySelector("#attributionRows");
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
@@ -76,10 +77,26 @@ function sampleNode(sample, index) {
   return section;
 }
 
+function attributionNode(item) {
+  const row = document.createElement("tr");
+  const source = item.source_url
+    ? `<a href="${item.source_url}" target="_blank" rel="noopener">${item.source_file}</a>`
+    : item.source_file;
+  row.innerHTML = `
+    <td>${item.sample}</td>
+    <td>${item.category}</td>
+    <td>${item.dataset}</td>
+    <td>${source}${item.creator ? `<br /><span>${item.creator}</span>` : ""}</td>
+    <td>${item.license}</td>
+  `;
+  return row;
+}
+
 fetch("assets/data/demo-data.json")
   .then(response => response.json())
   .then(data => {
     colorbarImage.src = data.spectrogram.colorbar;
     colorbarCaption.textContent = `${data.spectrogram.db_min} to ${data.spectrogram.db_max} dBFS`;
     samplesRoot.replaceChildren(...data.samples.map(sampleNode));
+    attributionRows.replaceChildren(...(data.attributions || []).map(attributionNode));
   });

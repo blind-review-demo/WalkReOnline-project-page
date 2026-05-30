@@ -6343,5 +6343,439 @@
         }
       ]
     }
+  ],
+  "attributions": [
+    {
+      "sample": "can_opening_5-237795-A-34",
+      "category": "can opening",
+      "dataset": "ESC-50",
+      "source_file": "5-237795-A-34.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/237795/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "gun_shot_174289",
+      "category": "gun shot",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "174289.wav",
+      "creator": "ingudios",
+      "source_url": "https://www.freesound.org/people/ingudios/sounds/174289/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "pig_3-233151-A-2",
+      "category": "pig",
+      "dataset": "ESC-50",
+      "source_file": "3-233151-A-2.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/233151/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "screaming_JOio_mntPcE_out",
+      "category": "screaming",
+      "dataset": "Human Screaming Detection Dataset",
+      "source_file": "JOio_mntPcE_out.wav",
+      "creator": "whats2000",
+      "source_url": "https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset",
+      "license": "MIT License"
+    },
+    {
+      "sample": "cat_2-69131-B-5",
+      "category": "cat",
+      "dataset": "ESC-50",
+      "source_file": "2-69131-B-5.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/69131/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "glass_break_216282",
+      "category": "glass break",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "216282.wav",
+      "creator": "RSilveira_88",
+      "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216282/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "car_horn_2-144137-A-43",
+      "category": "car horn",
+      "dataset": "ESC-50",
+      "source_file": "2-144137-A-43.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/144137/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "baby_cry_202730",
+      "category": "baby cry",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "202730.wav",
+      "creator": "carolgee",
+      "source_url": "https://www.freesound.org/people/carolgee/sounds/202730/",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "sample": "crickets_5-204352-B-13",
+      "category": "crickets",
+      "dataset": "ESC-50",
+      "source_file": "5-204352-B-13.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/204352/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "siren_5-117118-A-42",
+      "category": "siren",
+      "dataset": "ESC-50",
+      "source_file": "5-117118-A-42.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/117118/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "thunderstorm_5-156999-B-19",
+      "category": "thunderstorm",
+      "dataset": "ESC-50",
+      "source_file": "5-156999-B-19.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/156999/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "gun_shot_216318",
+      "category": "gun shot",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "216318.wav",
+      "creator": "RSilveira_88",
+      "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216318/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "engine_2-106015-A-44",
+      "category": "engine",
+      "dataset": "ESC-50",
+      "source_file": "2-106015-A-44.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/106015/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "baby_cry_33671",
+      "category": "baby cry",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "33671.wav",
+      "creator": "reinsamba",
+      "source_url": "https://www.freesound.org/people/reinsamba/sounds/33671/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "airplane_4-255371-A-47",
+      "category": "airplane",
+      "dataset": "ESC-50",
+      "source_file": "4-255371-A-47.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/255371/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "siren_4-102871-A-42",
+      "category": "siren",
+      "dataset": "ESC-50",
+      "source_file": "4-102871-A-42.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/102871/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "laughing_4-181599-A-26",
+      "category": "laughing",
+      "dataset": "ESC-50",
+      "source_file": "4-181599-A-26.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/181599/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "glass_break_216292",
+      "category": "glass break",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "216292.wav",
+      "creator": "RSilveira_88",
+      "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216292/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "hen_5-248341-C-6",
+      "category": "hen",
+      "dataset": "ESC-50",
+      "source_file": "5-248341-C-6.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/248341/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "screaming_ygAoDKnuXRU_out",
+      "category": "screaming",
+      "dataset": "Human Screaming Detection Dataset",
+      "source_file": "ygAoDKnuXRU_out.wav",
+      "creator": "whats2000",
+      "source_url": "https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset",
+      "license": "MIT License"
+    },
+    {
+      "sample": "clock_alarm_2-104475-A-37",
+      "category": "clock alarm",
+      "dataset": "ESC-50",
+      "source_file": "2-104475-A-37.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/104475/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "glass_break_216292",
+      "category": "glass break",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "216292.wav",
+      "creator": "RSilveira_88",
+      "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216292/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "fireworks_4-119648-A-48",
+      "category": "fireworks",
+      "dataset": "ESC-50",
+      "source_file": "4-119648-A-48.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/119648/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "gun_shot_216313",
+      "category": "gun shot",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "216313.wav",
+      "creator": "RSilveira_88",
+      "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216313/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "helicopter_5-191131-A-40",
+      "category": "helicopter",
+      "dataset": "ESC-50",
+      "source_file": "5-191131-A-40.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/191131/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "screaming_5IAS11SG9Dc_out",
+      "category": "screaming",
+      "dataset": "Human Screaming Detection Dataset",
+      "source_file": "5IAS11SG9Dc_out.wav",
+      "creator": "whats2000",
+      "source_url": "https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset",
+      "license": "MIT License"
+    },
+    {
+      "sample": "church_bells_1-56907-A-46",
+      "category": "church bells",
+      "dataset": "ESC-50",
+      "source_file": "1-56907-A-46.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/56907/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "siren_3-51376-A-42",
+      "category": "siren",
+      "dataset": "ESC-50",
+      "source_file": "3-51376-A-42.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/51376/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "water_drops_3-166324-A-15",
+      "category": "water drops",
+      "dataset": "ESC-50",
+      "source_file": "3-166324-A-15.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/166324/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "baby_cry_202730",
+      "category": "baby cry",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "202730.wav",
+      "creator": "carolgee",
+      "source_url": "https://www.freesound.org/people/carolgee/sounds/202730/",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "sample": "mouse_click_4-204612-A-31",
+      "category": "mouse click",
+      "dataset": "ESC-50",
+      "source_file": "4-204612-A-31.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/204612/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "glass_break_216281",
+      "category": "glass break",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "216281.wav",
+      "creator": "RSilveira_88",
+      "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216281/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "crow_3-117293-A-9",
+      "category": "crow",
+      "dataset": "ESC-50",
+      "source_file": "3-117293-A-9.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/117293/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "gun_shot_216315",
+      "category": "gun shot",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "216315.wav",
+      "creator": "RSilveira_88",
+      "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216315/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "sneezing_2-118104-A-21",
+      "category": "sneezing",
+      "dataset": "ESC-50",
+      "source_file": "2-118104-A-21.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/118104/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "screaming_X25-TNDbmRI_out",
+      "category": "screaming",
+      "dataset": "Human Screaming Detection Dataset",
+      "source_file": "X25-TNDbmRI_out.wav",
+      "creator": "whats2000",
+      "source_url": "https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset",
+      "license": "MIT License"
+    },
+    {
+      "sample": "wind_2-109371-A-16",
+      "category": "wind",
+      "dataset": "ESC-50",
+      "source_file": "2-109371-A-16.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/109371/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "baby_cry_202730",
+      "category": "baby cry",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "202730.wav",
+      "creator": "carolgee",
+      "source_url": "https://www.freesound.org/people/carolgee/sounds/202730/",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "sample": "train_4-168446-A-45",
+      "category": "train",
+      "dataset": "ESC-50",
+      "source_file": "4-168446-A-45.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/168446/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "siren_1-76831-E-42",
+      "category": "siren",
+      "dataset": "ESC-50",
+      "source_file": "1-76831-E-42.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/76831/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "hand_saw_2-51630-A-49",
+      "category": "hand saw",
+      "dataset": "ESC-50",
+      "source_file": "2-51630-A-49.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/51630/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "gun_shot_174290",
+      "category": "gun shot",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "174290.wav",
+      "creator": "ingudios",
+      "source_url": "https://www.freesound.org/people/ingudios/sounds/174290/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "sample": "footsteps_1-155858-F-25",
+      "category": "footsteps",
+      "dataset": "ESC-50",
+      "source_file": "1-155858-F-25.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/155858/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "siren_4-102871-A-42",
+      "category": "siren",
+      "dataset": "ESC-50",
+      "source_file": "4-102871-A-42.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/102871/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "clapping_5-221568-A-22",
+      "category": "clapping",
+      "dataset": "ESC-50",
+      "source_file": "5-221568-A-22.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/221568/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "screaming_T-AN31N4LD0_out",
+      "category": "screaming",
+      "dataset": "Human Screaming Detection Dataset",
+      "source_file": "T-AN31N4LD0_out.wav",
+      "creator": "whats2000",
+      "source_url": "https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset",
+      "license": "MIT License"
+    },
+    {
+      "sample": "insects_5-194932-A-7",
+      "category": "insects",
+      "dataset": "ESC-50",
+      "source_file": "5-194932-A-7.wav",
+      "creator": "ESC-50 / original Freesound contributors",
+      "source_url": "https://freesound.org/s/194932/",
+      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
+    },
+    {
+      "sample": "glass_break_98378",
+      "category": "glass break",
+      "dataset": "TUT Rare Sound Events 2017 / Freesound",
+      "source_file": "98378.wav",
+      "creator": "Tomlija",
+      "source_url": "http://www.freesound.org/people/Tomlija/sounds/98378/",
+      "license": "http://creativecommons.org/licenses/by/3.0/"
+    }
   ]
 }
