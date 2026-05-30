@@ -2,7 +2,7 @@ const samplesRoot = document.querySelector("#samples");
 const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
 const attributionRows = document.querySelector("#attributionRows");
-const dataUrl = "assets/data/demo-data.json?v=20260530-attribution-columns";
+const dataUrl = "assets/data/demo-data.json?v=20260530-musan-sections";
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
@@ -60,6 +60,9 @@ function sampleNode(sample, index) {
   methodGrid.className = "tracks tracks--methods";
   methodGrid.replaceChildren(...methods);
 
+  const statusPill = sample.ground_truth
+    ? `<span class="pill">Status (Ground Truth): ${sample.ground_truth}</span>`
+    : "";
   section.innerHTML = `
     <header class="sample__head">
       <h2>${String(index + 1).padStart(2, "0")}. ${sample.class}</h2>
@@ -67,7 +70,7 @@ function sampleNode(sample, index) {
         <span class="pill">Robot: ${sample.robot}</span>
         <span class="pill">SNR: ${sample.snr_db} dB</span>
         <span class="pill">Category (Ground Truth): ${sample.class}</span>
-        <span class="pill">Status (Ground Truth): ${sample.ground_truth}</span>
+        ${statusPill}
       </div>
     </header>
     <h3>References</h3>
@@ -76,6 +79,15 @@ function sampleNode(sample, index) {
   section.insertAdjacentHTML("beforeend", "<h3>Methods</h3>");
   section.append(methodGrid);
   return section;
+}
+
+function demoSectionNode(section) {
+  const wrapper = document.createElement("section");
+  wrapper.className = "demo-section";
+  const title = document.createElement("h2");
+  title.textContent = section.title;
+  wrapper.append(title, ...section.samples.map(sampleNode));
+  return wrapper;
 }
 
 function attributionNode(item) {
@@ -94,6 +106,7 @@ fetch(dataUrl)
   .then(data => {
     colorbarImage.src = data.spectrogram.colorbar;
     colorbarCaption.textContent = `${data.spectrogram.db_min} to ${data.spectrogram.db_max} dBFS`;
-    samplesRoot.replaceChildren(...data.samples.map(sampleNode));
+    const sections = data.sections || [{ title: "Demo Samples", samples: data.samples || [] }];
+    samplesRoot.replaceChildren(...sections.map(demoSectionNode));
     attributionRows.replaceChildren(...(data.attributions || []).map(attributionNode));
   });

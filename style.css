@@ -119,6 +119,20 @@ footer {
   padding-bottom: 44px;
 }
 
+.demo-section {
+  display: grid;
+  gap: 28px;
+}
+
+.demo-section + .demo-section {
+  margin-top: 8px;
+}
+
+.demo-section > h2 {
+  margin: 6px 0 -8px;
+  font-size: 1.55rem;
+}
+
 .sample {
   border: 1px solid var(--line);
   border-radius: 8px;
