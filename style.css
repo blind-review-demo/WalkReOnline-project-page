@@ -277,7 +277,7 @@ footer {
 
 .attributions__table {
   width: 100%;
-  min-width: 900px;
+  min-width: 680px;
   border-collapse: collapse;
   color: var(--ink);
   font-size: 0.82rem;

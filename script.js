@@ -80,14 +80,10 @@ function sampleNode(sample, index) {
 
 function attributionNode(item) {
   const row = document.createElement("tr");
-  const source = item.source_url
-    ? `<a href="${item.source_url}" target="_blank" rel="noopener">${item.source_file}</a>`
-    : item.source_file;
   row.innerHTML = `
     <td>${item.sample}</td>
     <td>${item.category}</td>
     <td>${item.dataset}</td>
-    <td>${source}${item.creator ? `<br /><span>${item.creator}</span>` : ""}</td>
     <td>${item.license}</td>
   `;
   return row;
