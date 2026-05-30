@@ -2,6 +2,7 @@ const samplesRoot = document.querySelector("#samples");
 const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
 const attributionRows = document.querySelector("#attributionRows");
+const dataUrl = "assets/data/demo-data.json?v=20260530-attributions";
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
@@ -92,7 +93,7 @@ function attributionNode(item) {
   return row;
 }
 
-fetch("assets/data/demo-data.json")
+fetch(dataUrl)
   .then(response => response.json())
   .then(data => {
     colorbarImage.src = data.spectrogram.colorbar;
