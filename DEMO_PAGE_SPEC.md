@@ -48,7 +48,7 @@ The upper audio row contains:
 
 The lower audio row contains method outputs:
 
-- `EgoAdapt-DiT`
+- `EgoSep (Ours)`
 - `SAM-Audio` (`Sam-Audio`)
 - `CLAPSep` (`clapsep`)
 - `Conv-TasNet` (`espnet_convtasnet`)
@@ -69,9 +69,9 @@ The builder selects `DEMO_PAGE_SAMPLE_COUNT` sets.
 
 Selection is automatic and prioritizes samples where:
 
-- `EgoAdapt-DiT` is classification-correct.
+- `EgoSep` is classification-correct.
 - Competing methods are classification-wrong.
-- `EgoAdapt-DiT` has higher separation metrics than competing methods.
+- `EgoSep` has higher separation metrics than competing methods.
 
 To avoid selecting only one condition, candidates are taken in rotation over:
 
