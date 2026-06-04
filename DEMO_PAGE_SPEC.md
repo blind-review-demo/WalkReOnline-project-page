@@ -48,7 +48,7 @@ The upper audio row contains:
 
 The lower audio row contains method outputs:
 
-- `Ours` (`sam_audio_lora`)
+- `EgoAdapt-DiT`
 - `SAM-Audio` (`Sam-Audio`)
 - `CLAPSep` (`clapsep`)
 - `Conv-TasNet` (`espnet_convtasnet`)
@@ -69,9 +69,9 @@ The builder selects `DEMO_PAGE_SAMPLE_COUNT` sets.
 
 Selection is automatic and prioritizes samples where:
 
-- `Ours` is classification-correct.
+- `EgoAdapt-DiT` is classification-correct.
 - Competing methods are classification-wrong.
-- `Ours` has higher separation metrics than competing methods.
+- `EgoAdapt-DiT` has higher separation metrics than competing methods.
 
 To avoid selecting only one condition, candidates are taken in rotation over:
 
@@ -94,20 +94,12 @@ With the current `DEMO_PAGE_SAMPLE_COUNT = 36`, each of the 12
 `robot x SNR x Ground Truth` buckets appears three times when enough
 candidates exist.
 
-## Audio Normalization
+## Audio Scale
 
-For each demo set:
+Audio files keep the source scale when they are materialized for the demo page.
 
-1. Load the original `Mixture`.
-2. Compute `scale = 1 / max(abs(Mixture))`.
-3. Apply the same `scale` to every audio file in the set:
-   - `Mixture`
-   - `Ego-Noise`
-   - `Target`
-   - every method prediction
-4. Write the scaled files to `docs/assets/audio/`.
-
-This keeps all tracks within a set on the same amplitude scale.
+The builder loads each source track and writes it to `docs/assets/audio/`
+without peak normalization or any other amplitude scaling.
 
 ## Spectrograms
 
@@ -144,7 +136,7 @@ Run:
 This regenerates:
 
 - selected samples
-- scaled wav files
+- wav files at the source scale
 - spectrogram images
 - colorbar
 - JSON payload
