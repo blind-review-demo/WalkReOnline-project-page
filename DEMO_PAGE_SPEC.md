@@ -57,7 +57,7 @@ The lower audio row contains method outputs:
 
 Each method output also displays:
 
-- `Prediction: Normal` or `Prediction: Anomaly`
+- `Status (Prediction): Normal` or `Status (Prediction): Anomaly`
 - `Correct` or `Wrong`
 - `CAP Score↑`: CLAP audio embedding cosine similarity between the target and
   the separated estimate.

@@ -2,7 +2,7 @@ const samplesRoot = document.querySelector("#samples");
 const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
 const attributionRows = document.querySelector("#attributionRows");
-const dataUrl = "assets/data/demo-data.json?v=20260530-musan-0db-highband";
+const dataUrl = "assets/data/demo-data.json?v=20260608-title-status";
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
@@ -17,13 +17,6 @@ function trackNode(track) {
           track.correct ? "Status: Correct" : "Status: Wrong"
         }</span>`
       : "";
-  const predictionCategories =
-    Array.isArray(track.prediction_top3) && track.prediction_top3.length
-      ? track.prediction_top3.map((category, index) => `${index + 1}. ${category}`).join(" | ")
-      : track.prediction_class;
-  const predictionClass = predictionCategories
-    ? `<span class="track__prediction">Category (Prediction): ${predictionCategories}</span>`
-    : "";
   const predictionStatus = (track.prediction_status || track.prediction)
     ? `<span class="track__prediction">Status (Prediction): ${track.prediction_status || track.prediction}</span>`
     : "";
@@ -37,7 +30,6 @@ function trackNode(track) {
       <span class="track__label">${track.label}</span>
       ${status}
     </div>
-    ${predictionClass}
     ${predictionStatus}
     ${scores}
     <audio controls preload="none" src="${track.audio}"></audio>
