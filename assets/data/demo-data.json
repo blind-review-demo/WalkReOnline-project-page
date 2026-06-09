@@ -11,387 +11,387 @@
       "title": "Speech Separation",
       "samples": [
         {
-          "sample_id": "musan_speech_0226_G1_speech-us-gov-0094",
+          "sample_id": "musan_speech_0377_Go1_r00_speech-librivox-0141",
+          "robot": "Go1",
+          "snr_db": 0.0,
+          "class": "speech",
+          "selection_score": 2.27525759,
+          "reference_tracks": [
+            {
+              "key": "mixture",
+              "label": "Mixture",
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/mixture.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/mixture.png"
+            },
+            {
+              "key": "ego_noise",
+              "label": "Ego-Noise",
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/ego_noise.png"
+            },
+            {
+              "key": "target",
+              "label": "Target",
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/target.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/target.png"
+            }
+          ],
+          "method_tracks": [
+            {
+              "method": "EgoSep",
+              "label": "EgoSep (Ours)",
+              "cap_score": 0.83419728,
+              "saj_score": 5.12709236,
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/EgoSep.png"
+            },
+            {
+              "method": "Sam-Audio",
+              "label": "SAM-Audio",
+              "cap_score": 0.8275466,
+              "saj_score": 2.85183477,
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/Sam-Audio.png"
+            },
+            {
+              "method": "clapsep",
+              "label": "CLAPSep",
+              "cap_score": 0.78632015,
+              "saj_score": 2.70524216,
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/clapsep.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/clapsep.png"
+            },
+            {
+              "method": "espnet_convtasnet",
+              "label": "Conv-TasNet",
+              "cap_score": 0.66021419,
+              "saj_score": 2.64744139,
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/espnet_convtasnet.png"
+            },
+            {
+              "method": "espnet_dprnn_tf",
+              "label": "Dual-Path RNN",
+              "cap_score": 0.72260177,
+              "saj_score": 2.06451988,
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/espnet_dprnn_tf.png"
+            },
+            {
+              "method": "espnet_conformer",
+              "label": "Conformer",
+              "cap_score": 0.67572308,
+              "saj_score": 1.92974222,
+              "audio": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0377_Go1_r00_speech-librivox-0141/espnet_conformer.png"
+            }
+          ]
+        },
+        {
+          "sample_id": "musan_speech_0316_G1_r00_speech-librivox-0142",
           "robot": "G1",
           "snr_db": 0.0,
           "class": "speech",
-          "selection_score": 1.82887197,
+          "selection_score": 1.95246005,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/mixture.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/mixture.png"
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/mixture.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/ego_noise.png"
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/target.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/target.png"
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/target.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.59661865,
-              "saj_score": 4.82554913,
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/EgoSep.png"
+              "cap_score": 0.85526162,
+              "saj_score": 4.5919857,
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.66884387,
-              "saj_score": 1.77191567,
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/Sam-Audio.png"
+              "cap_score": 0.5267117,
+              "saj_score": 1.52471435,
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.83534193,
-              "saj_score": 2.99667716,
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/clapsep.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/clapsep.png"
+              "cap_score": 0.75789678,
+              "saj_score": 2.63952565,
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/clapsep.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.68350804,
-              "saj_score": 2.92676711,
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/espnet_convtasnet.png"
+              "cap_score": 0.5659495,
+              "saj_score": 1.92087662,
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.68304884,
-              "saj_score": 2.72827196,
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/espnet_dprnn_tf.png"
+              "cap_score": 0.66182232,
+              "saj_score": 2.15718746,
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.6603691,
-              "saj_score": 2.9712894,
-              "audio": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_speech_01_musan_speech_0226_G1_speech-us-gov-0094/espnet_conformer.png"
+              "cap_score": 0.75662965,
+              "saj_score": 2.21389174,
+              "audio": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0316_G1_r00_speech-librivox-0142/espnet_conformer.png"
             }
           ]
         },
         {
-          "sample_id": "musan_speech_0156_G1_speech-librivox-0054",
+          "sample_id": "musan_speech_0385_Go1_r00_speech-librivox-0148",
+          "robot": "Go1",
+          "snr_db": 0.0,
+          "class": "speech",
+          "selection_score": 1.74823856,
+          "reference_tracks": [
+            {
+              "key": "mixture",
+              "label": "Mixture",
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/mixture.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/mixture.png"
+            },
+            {
+              "key": "ego_noise",
+              "label": "Ego-Noise",
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/ego_noise.png"
+            },
+            {
+              "key": "target",
+              "label": "Target",
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/target.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/target.png"
+            }
+          ],
+          "method_tracks": [
+            {
+              "method": "EgoSep",
+              "label": "EgoSep (Ours)",
+              "cap_score": 0.91029477,
+              "saj_score": 4.50480747,
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/EgoSep.png"
+            },
+            {
+              "method": "Sam-Audio",
+              "label": "SAM-Audio",
+              "cap_score": 0.31542495,
+              "saj_score": 1.0076462,
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/Sam-Audio.png"
+            },
+            {
+              "method": "clapsep",
+              "label": "CLAPSep",
+              "cap_score": 0.72783226,
+              "saj_score": 2.60050154,
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/clapsep.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/clapsep.png"
+            },
+            {
+              "method": "espnet_convtasnet",
+              "label": "Conv-TasNet",
+              "cap_score": 0.76844549,
+              "saj_score": 2.38874578,
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/espnet_convtasnet.png"
+            },
+            {
+              "method": "espnet_dprnn_tf",
+              "label": "Dual-Path RNN",
+              "cap_score": 0.81831765,
+              "saj_score": 2.75656891,
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/espnet_dprnn_tf.png"
+            },
+            {
+              "method": "espnet_conformer",
+              "label": "Conformer",
+              "cap_score": 0.80519742,
+              "saj_score": 2.63417459,
+              "audio": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0385_Go1_r00_speech-librivox-0148/espnet_conformer.png"
+            }
+          ]
+        },
+        {
+          "sample_id": "musan_speech_0568_G1_r02_speech-us-gov-0202",
           "robot": "G1",
           "snr_db": 0.0,
           "class": "speech",
-          "selection_score": 1.69768571,
+          "selection_score": 1.6260221,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/mixture.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/mixture.png"
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/mixture.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/ego_noise.png"
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/target.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/target.png"
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/target.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.87569475,
-              "saj_score": 4.86364841,
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/EgoSep.png"
+              "cap_score": 0.78388798,
+              "saj_score": 4.21041679,
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.49966177,
-              "saj_score": 1.92394853,
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/Sam-Audio.png"
+              "cap_score": 0.62412572,
+              "saj_score": 1.52278221,
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.87681323,
-              "saj_score": 3.1659627,
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/clapsep.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/clapsep.png"
+              "cap_score": 0.83523303,
+              "saj_score": 2.58439469,
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/clapsep.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.66929388,
-              "saj_score": 2.85541606,
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/espnet_convtasnet.png"
+              "cap_score": 0.72567123,
+              "saj_score": 2.10931253,
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.73798966,
-              "saj_score": 2.25781631,
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/espnet_dprnn_tf.png"
+              "cap_score": 0.77220482,
+              "saj_score": 2.02176046,
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.7547738,
-              "saj_score": 2.7192781,
-              "audio": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_speech_02_musan_speech_0156_G1_speech-librivox-0054/espnet_conformer.png"
+              "cap_score": 0.86840272,
+              "saj_score": 2.00186491,
+              "audio": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0568_G1_r02_speech-us-gov-0202/espnet_conformer.png"
             }
           ]
         },
         {
-          "sample_id": "musan_speech_0187_Go1_speech-us-gov-0160",
+          "sample_id": "musan_speech_0183_Go1_r00_speech-librivox-0100",
           "robot": "Go1",
           "snr_db": 0.0,
           "class": "speech",
-          "selection_score": 1.51055479,
+          "selection_score": 1.52913642,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/mixture.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/mixture.png"
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/mixture.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/ego_noise.png"
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/target.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/target.png"
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/target.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.78154874,
-              "saj_score": 4.89970827,
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/EgoSep.png"
+              "cap_score": 0.8964324,
+              "saj_score": 4.4142127,
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.30270624,
-              "saj_score": 0.95470238,
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/Sam-Audio.png"
+              "cap_score": 0.52393407,
+              "saj_score": 0.83335638,
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.72943175,
-              "saj_score": 3.38915348,
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/clapsep.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/clapsep.png"
+              "cap_score": 0.72338051,
+              "saj_score": 2.88507628,
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/clapsep.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.72337663,
-              "saj_score": 1.85067928,
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/espnet_convtasnet.png"
+              "cap_score": 0.6707328,
+              "saj_score": 2.83411074,
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.64659393,
-              "saj_score": 2.0457139,
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/espnet_dprnn_tf.png"
+              "cap_score": 0.68346071,
+              "saj_score": 2.187433,
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.59077966,
-              "saj_score": 2.14415121,
-              "audio": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_speech_03_musan_speech_0187_Go1_speech-us-gov-0160/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "musan_speech_0219_Go1_speech-librivox-0051",
-          "robot": "Go1",
-          "snr_db": 0.0,
-          "class": "speech",
-          "selection_score": 1.47037411,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/mixture.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/target.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "cap_score": 0.89419436,
-              "saj_score": 4.54429722,
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "cap_score": 0.19638136,
-              "saj_score": 0.9892745,
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "cap_score": 0.8007735,
-              "saj_score": 3.07392311,
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/clapsep.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "cap_score": 0.69128549,
-              "saj_score": 2.34489441,
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "cap_score": 0.80997312,
-              "saj_score": 2.03468704,
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "cap_score": 0.62466729,
-              "saj_score": 2.41741705,
-              "audio": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_speech_04_musan_speech_0219_Go1_speech-librivox-0051/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "musan_speech_0279_Go1_speech-librivox-0063",
-          "robot": "Go1",
-          "snr_db": 0.0,
-          "class": "speech",
-          "selection_score": 1.37387132,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/mixture.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/target.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "cap_score": 0.94415826,
-              "saj_score": 4.22203302,
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "cap_score": 0.17236254,
-              "saj_score": 1.00487816,
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "cap_score": 0.79469556,
-              "saj_score": 2.8481617,
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/clapsep.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "cap_score": 0.70961392,
-              "saj_score": 2.48766088,
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "cap_score": 0.73720598,
-              "saj_score": 2.31088138,
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "cap_score": 0.65010476,
-              "saj_score": 2.65267754,
-              "audio": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0279_Go1_speech-librivox-0063/espnet_conformer.png"
+              "cap_score": 0.56391287,
+              "saj_score": 2.32425523,
+              "audio": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_speech_05_musan_speech_0183_Go1_r00_speech-librivox-0100/espnet_conformer.png"
             }
           ]
         }
@@ -401,387 +401,387 @@
       "title": "Music Separation",
       "samples": [
         {
-          "sample_id": "musan_music_0103_Go1_music-rfm-0000",
+          "sample_id": "musan_music_0589_Go1_r00_music-jamendo-0050",
           "robot": "Go1",
           "snr_db": 0.0,
           "class": "music",
-          "selection_score": 2.0920856,
+          "selection_score": 2.33472395,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/mixture.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/mixture.png"
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/mixture.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/ego_noise.png"
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/target.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/target.png"
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/target.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.54302037,
-              "saj_score": 4.72948313,
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/EgoSep.png"
+              "cap_score": 0.69206578,
+              "saj_score": 4.93894005,
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.22400567,
-              "saj_score": 1.57022619,
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/Sam-Audio.png"
+              "cap_score": 0.22977325,
+              "saj_score": 1.95364654,
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.29527909,
-              "saj_score": 2.54382372,
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/clapsep.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/clapsep.png"
+              "cap_score": 0.54064667,
+              "saj_score": 1.19361925,
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/clapsep.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.39928579,
-              "saj_score": 2.63739753,
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/espnet_convtasnet.png"
+              "cap_score": 0.6581127,
+              "saj_score": 2.50680733,
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.25344002,
-              "saj_score": 1.83610845,
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/espnet_dprnn_tf.png"
+              "cap_score": 0.70264912,
+              "saj_score": 1.38257504,
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.38040647,
-              "saj_score": 2.16978455,
-              "audio": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_music_01_musan_music_0103_Go1_music-rfm-0000/espnet_conformer.png"
+              "cap_score": 0.77605659,
+              "saj_score": 2.6042161,
+              "audio": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_music_01_musan_music_0589_Go1_r00_music-jamendo-0050/espnet_conformer.png"
             }
           ]
         },
         {
-          "sample_id": "musan_music_0289_Go1_music-jamendo-0094",
+          "sample_id": "musan_music_0357_Go1_r00_music-fma-0106",
           "robot": "Go1",
           "snr_db": 0.0,
           "class": "music",
-          "selection_score": 1.92388296,
+          "selection_score": 2.17521786,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/mixture.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/mixture.png"
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/mixture.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/ego_noise.png"
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/target.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/target.png"
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/target.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.42807826,
-              "saj_score": 4.97232962,
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/EgoSep.png"
+              "cap_score": 0.76011992,
+              "saj_score": 4.98102903,
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.47605211,
-              "saj_score": 3.04844666,
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/Sam-Audio.png"
+              "cap_score": 0.19500786,
+              "saj_score": 0.87367892,
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.16901346,
-              "saj_score": 1.29590893,
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/clapsep.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/clapsep.png"
+              "cap_score": 0.35041082,
+              "saj_score": 1.98820913,
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/clapsep.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.35662472,
-              "saj_score": 2.37936068,
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/espnet_convtasnet.png"
+              "cap_score": 0.4579446,
+              "saj_score": 2.80581117,
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.38049799,
-              "saj_score": 2.51880193,
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/espnet_dprnn_tf.png"
+              "cap_score": 0.45629427,
+              "saj_score": 2.66021442,
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.42247027,
-              "saj_score": 2.20095205,
-              "audio": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_music_02_musan_music_0289_Go1_music-jamendo-0094/espnet_conformer.png"
+              "cap_score": 0.55252862,
+              "saj_score": 2.79728317,
+              "audio": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_music_02_musan_music_0357_Go1_r00_music-fma-0106/espnet_conformer.png"
             }
           ]
         },
         {
-          "sample_id": "musan_music_0257_Go1_music-fma-0025",
+          "sample_id": "musan_music_0069_Go1_r00_music-fma-0068",
           "robot": "Go1",
           "snr_db": 0.0,
           "class": "music",
-          "selection_score": 1.87459373,
+          "selection_score": 2.03239298,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/mixture.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/mixture.png"
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/mixture.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/ego_noise.png"
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/target.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/target.png"
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/target.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.67576385,
-              "saj_score": 4.63956165,
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/EgoSep.png"
+              "cap_score": 0.59020925,
+              "saj_score": 4.81146908,
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.48884466,
-              "saj_score": 2.01060724,
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/Sam-Audio.png"
+              "cap_score": 0.04501674,
+              "saj_score": 1.16733575,
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.31131032,
-              "saj_score": 1.19310069,
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/clapsep.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/clapsep.png"
+              "cap_score": 0.1164836,
+              "saj_score": 1.26525259,
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/clapsep.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.57099974,
-              "saj_score": 2.76496792,
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/espnet_convtasnet.png"
+              "cap_score": 0.16679467,
+              "saj_score": 1.49614489,
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.4406102,
-              "saj_score": 1.76575446,
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/espnet_dprnn_tf.png"
+              "cap_score": 0.18344834,
+              "saj_score": 2.7790761,
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.64728391,
-              "saj_score": 1.51423824,
-              "audio": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_music_03_musan_music_0257_Go1_music-fma-0025/espnet_conformer.png"
+              "cap_score": 0.19237429,
+              "saj_score": 1.9683094,
+              "audio": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_music_03_musan_music_0069_Go1_r00_music-fma-0068/espnet_conformer.png"
             }
           ]
         },
         {
-          "sample_id": "musan_music_0265_Go1_music-fma-0006",
+          "sample_id": "musan_music_0421_Go1_r00_music-rfm-0106",
           "robot": "Go1",
           "snr_db": 0.0,
           "class": "music",
-          "selection_score": 1.82041526,
+          "selection_score": 1.9949615,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/mixture.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/mixture.png"
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/mixture.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/ego_noise.png"
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/target.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/target.png"
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/target.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.73505616,
-              "saj_score": 4.90699148,
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/EgoSep.png"
+              "cap_score": 0.82615042,
+              "saj_score": 5.01193571,
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.59673053,
-              "saj_score": 2.60961032,
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/Sam-Audio.png"
+              "cap_score": 0.61672521,
+              "saj_score": 2.74702072,
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.68373775,
-              "saj_score": 2.82304692,
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/clapsep.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/clapsep.png"
+              "cap_score": 0.72142506,
+              "saj_score": 1.04399586,
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/clapsep.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.50348008,
-              "saj_score": 2.62805223,
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/espnet_convtasnet.png"
+              "cap_score": 0.57152635,
+              "saj_score": 3.01697421,
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.5666039,
-              "saj_score": 3.08657622,
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/espnet_dprnn_tf.png"
+              "cap_score": 0.30152541,
+              "saj_score": 2.21788168,
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.46402496,
-              "saj_score": 2.67936397,
-              "audio": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_music_04_musan_music_0265_Go1_music-fma-0006/espnet_conformer.png"
+              "cap_score": 0.41199246,
+              "saj_score": 2.95006514,
+              "audio": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_music_04_musan_music_0421_Go1_r00_music-rfm-0106/espnet_conformer.png"
             }
           ]
         },
         {
-          "sample_id": "musan_music_0109_Go1_music-rfm-0115",
+          "sample_id": "musan_music_0339_Go1_r00_music-rfm-0085",
           "robot": "Go1",
           "snr_db": 0.0,
           "class": "music",
-          "selection_score": 1.75792241,
+          "selection_score": 1.93334484,
           "reference_tracks": [
             {
               "key": "mixture",
               "label": "Mixture",
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/mixture.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/mixture.png"
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/mixture.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/mixture.png"
             },
             {
               "key": "ego_noise",
               "label": "Ego-Noise",
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/ego_noise.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/ego_noise.png"
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/ego_noise.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/ego_noise.png"
             },
             {
               "key": "target",
               "label": "Target",
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/target.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/target.png"
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/target.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/target.png"
             }
           ],
           "method_tracks": [
             {
               "method": "EgoSep",
               "label": "EgoSep (Ours)",
-              "cap_score": 0.5484584,
-              "saj_score": 4.95773506,
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/EgoSep.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/EgoSep.png"
+              "cap_score": 0.83301896,
+              "saj_score": 4.94435644,
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/EgoSep.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/EgoSep.png"
             },
             {
               "method": "Sam-Audio",
               "label": "SAM-Audio",
-              "cap_score": 0.33325475,
-              "saj_score": 1.19750583,
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/Sam-Audio.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/Sam-Audio.png"
+              "cap_score": 0.46105006,
+              "saj_score": 2.32579994,
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/Sam-Audio.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/Sam-Audio.png"
             },
             {
               "method": "clapsep",
               "label": "CLAPSep",
-              "cap_score": 0.23188332,
-              "saj_score": 1.70305359,
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/clapsep.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/clapsep.png"
+              "cap_score": 0.3925693,
+              "saj_score": 0.98128223,
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/clapsep.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/clapsep.png"
             },
             {
               "method": "espnet_convtasnet",
               "label": "Conv-TasNet",
-              "cap_score": 0.26169726,
-              "saj_score": 2.08062315,
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/espnet_convtasnet.png"
+              "cap_score": 0.4709869,
+              "saj_score": 3.0110116,
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/espnet_convtasnet.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/espnet_convtasnet.png"
             },
             {
               "method": "espnet_dprnn_tf",
               "label": "Dual-Path RNN",
-              "cap_score": 0.26830679,
-              "saj_score": 3.19981265,
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/espnet_dprnn_tf.png"
+              "cap_score": 0.42731217,
+              "saj_score": 2.16055322,
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/espnet_dprnn_tf.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/espnet_dprnn_tf.png"
             },
             {
               "method": "espnet_conformer",
               "label": "Conformer",
-              "cap_score": 0.42509764,
-              "saj_score": 3.1481204,
-              "audio": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/espnet_conformer.wav",
-              "spectrogram": "assets/audio/musan_music_05_musan_music_0109_Go1_music-rfm-0115/espnet_conformer.png"
+              "cap_score": 0.544469,
+              "saj_score": 2.44534755,
+              "audio": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/espnet_conformer.wav",
+              "spectrogram": "assets/audio/musan_music_05_musan_music_0339_Go1_r00_music-rfm-0085/espnet_conformer.png"
             }
           ]
         }
@@ -10013,91 +10013,91 @@
   ],
   "attributions": [
     {
-      "sample": "speech-us-gov-0094",
+      "sample": "r00_speech-librivox-0141",
       "category": "speech",
       "dataset": "MUSAN speech",
-      "source_file": "speech-us-gov-0094.wav",
+      "source_file": "speech-librivox-0141.wav",
+      "creator": "MUSAN corpus contributors",
+      "source_url": "https://www.openslr.org/17/",
+      "license": "Public Domain"
+    },
+    {
+      "sample": "r00_speech-librivox-0142",
+      "category": "speech",
+      "dataset": "MUSAN speech",
+      "source_file": "speech-librivox-0142.wav",
+      "creator": "MUSAN corpus contributors",
+      "source_url": "https://www.openslr.org/17/",
+      "license": "Public Domain"
+    },
+    {
+      "sample": "r00_speech-librivox-0148",
+      "category": "speech",
+      "dataset": "MUSAN speech",
+      "source_file": "speech-librivox-0148.wav",
+      "creator": "MUSAN corpus contributors",
+      "source_url": "https://www.openslr.org/17/",
+      "license": "Public Domain"
+    },
+    {
+      "sample": "r02_speech-us-gov-0202",
+      "category": "speech",
+      "dataset": "MUSAN speech",
+      "source_file": "speech-us-gov-0202.wav",
       "creator": "MUSAN corpus contributors",
       "source_url": "https://www.openslr.org/17/",
       "license": "USA Public Domain"
     },
     {
-      "sample": "speech-librivox-0054",
+      "sample": "r00_speech-librivox-0100",
       "category": "speech",
       "dataset": "MUSAN speech",
-      "source_file": "speech-librivox-0054.wav",
+      "source_file": "speech-librivox-0100.wav",
       "creator": "MUSAN corpus contributors",
       "source_url": "https://www.openslr.org/17/",
       "license": "Public Domain"
     },
     {
-      "sample": "speech-us-gov-0160",
-      "category": "speech",
-      "dataset": "MUSAN speech",
-      "source_file": "speech-us-gov-0160.wav",
-      "creator": "MUSAN corpus contributors",
-      "source_url": "https://www.openslr.org/17/",
-      "license": "USA Public Domain"
-    },
-    {
-      "sample": "speech-librivox-0051",
-      "category": "speech",
-      "dataset": "MUSAN speech",
-      "source_file": "speech-librivox-0051.wav",
-      "creator": "MUSAN corpus contributors",
-      "source_url": "https://www.openslr.org/17/",
-      "license": "Public Domain"
-    },
-    {
-      "sample": "speech-librivox-0063",
-      "category": "speech",
-      "dataset": "MUSAN speech",
-      "source_file": "speech-librivox-0063.wav",
-      "creator": "MUSAN corpus contributors",
-      "source_url": "https://www.openslr.org/17/",
-      "license": "Public Domain"
-    },
-    {
-      "sample": "music-rfm-0000",
+      "sample": "r00_music-jamendo-0050",
       "category": "music",
       "dataset": "MUSAN music",
-      "source_file": "music-rfm-0000.wav",
-      "creator": "MUSAN corpus contributors",
-      "source_url": "https://www.openslr.org/17/",
-      "license": "Creative Commons Attribution 3.0 (CC BY 3.0)"
-    },
-    {
-      "sample": "music-jamendo-0094",
-      "category": "music",
-      "dataset": "MUSAN music",
-      "source_file": "music-jamendo-0094.wav",
+      "source_file": "music-jamendo-0050.wav",
       "creator": "MUSAN corpus contributors",
       "source_url": "https://www.openslr.org/17/",
       "license": "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
     },
     {
-      "sample": "music-fma-0025",
+      "sample": "r00_music-fma-0106",
       "category": "music",
       "dataset": "MUSAN music",
-      "source_file": "music-fma-0025.wav",
+      "source_file": "music-fma-0106.wav",
       "creator": "MUSAN corpus contributors",
       "source_url": "https://www.openslr.org/17/",
-      "license": "Singles by bueno.sair.es is licensed under a Attribution-ShareAlike 2.5 Portugal License"
+      "license": "Sketches by The Copycuts is licensed under a Attribution-ShareAlike License"
     },
     {
-      "sample": "music-fma-0006",
+      "sample": "r00_music-fma-0068",
       "category": "music",
       "dataset": "MUSAN music",
-      "source_file": "music-fma-0006.wav",
+      "source_file": "music-fma-0068.wav",
       "creator": "MUSAN corpus contributors",
       "source_url": "https://www.openslr.org/17/",
-      "license": "Alec's band by Alec's Band is licensed under a Attribution License"
+      "license": "Crawford Street by Josh Woodward is licensed under a Attribution License"
     },
     {
-      "sample": "music-rfm-0115",
+      "sample": "r00_music-rfm-0106",
       "category": "music",
       "dataset": "MUSAN music",
-      "source_file": "music-rfm-0115.wav",
+      "source_file": "music-rfm-0106.wav",
+      "creator": "MUSAN corpus contributors",
+      "source_url": "https://www.openslr.org/17/",
+      "license": "Creative Commons Attribution 3.0 (CC BY 3.0)"
+    },
+    {
+      "sample": "r00_music-rfm-0085",
+      "category": "music",
+      "dataset": "MUSAN music",
+      "source_file": "music-rfm-0085.wav",
       "creator": "MUSAN corpus contributors",
       "source_url": "https://www.openslr.org/17/",
       "license": "Creative Commons Attribution 3.0 (CC BY 3.0)"
