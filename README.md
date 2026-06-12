@@ -1,10 +1,10 @@
-# Learning to Hear While Walking Demo
+# Learning to Hear While Walking Project Page
 
-Static audio demo page for WalkReOnline.
+Static audio project page for WalkReOnline.
 
 Public page:
 
-https://blind-review-demo.github.io/WalkReOnline-demo/
+https://blind-review-demo.github.io/WalkReOnline-project-page/
 
 Open `index.html` through GitHub Pages or a local static server.
 

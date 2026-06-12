@@ -2,7 +2,7 @@ const samplesRoot = document.querySelector("#samples");
 const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
 const attributionRows = document.querySelector("#attributionRows");
-const dataUrl = "assets/data/demo-data.json?v=20260608-title-status";
+const dataUrl = "assets/data/project-data.json?v=20260608-title-status";
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
@@ -73,9 +73,9 @@ function sampleNode(sample, index) {
   return section;
 }
 
-function demoSectionNode(section) {
+function projectPageSectionNode(section) {
   const wrapper = document.createElement("section");
-  wrapper.className = "demo-section";
+  wrapper.className = "project-page-section";
   const title = document.createElement("h2");
   title.textContent = section.title;
   wrapper.append(title, ...section.samples.map(sampleNode));
@@ -98,7 +98,7 @@ fetch(dataUrl)
   .then(data => {
     colorbarImage.src = data.spectrogram.colorbar;
     colorbarCaption.textContent = `${data.spectrogram.db_min} to ${data.spectrogram.db_max} dBFS`;
-    const sections = data.sections || [{ title: "Demo Samples", samples: data.samples || [] }];
-    samplesRoot.replaceChildren(...sections.map(demoSectionNode));
+    const sections = data.sections || [{ title: "Audio Examples", samples: data.samples || [] }];
+    samplesRoot.replaceChildren(...sections.map(projectPageSectionNode));
     attributionRows.replaceChildren(...(data.attributions || []).map(attributionNode));
   });

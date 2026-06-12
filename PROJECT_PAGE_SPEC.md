@@ -1,16 +1,16 @@
-# Demo Page Specification
+# Project Page Specification
 
 ## Purpose
 
-This static page presents audio-only demos for the WalkReOnline experiment.
+This static page presents audio-only examples for the WalkReOnline experiment.
 It is intended for GitHub Pages deployment from `docs/`.
 
-The page does not show accuracy tables or metric charts. Each demo set compares
+The page does not show accuracy tables or metric charts. Each audio example set compares
 the mixture, references, and separated target estimates with spectrograms.
 
 ## Source Data
 
-The demo builder uses:
+The project page builder uses:
 
 - Sample-level results:
   `/mnt/usb_ssd2tb/ExpLog/WalkReOnline_v5/online_summary/all_method_sample_level_results.csv`
@@ -24,14 +24,14 @@ The builder writes:
 - `docs/index.html`
 - `docs/style.css`
 - `docs/script.js`
-- `docs/assets/data/demo-data.json`
+- `docs/assets/data/project-data.json`
 - `docs/assets/spectrogram_colorbar.png`
 - `docs/assets/audio/<sample_id>/*.wav`
 - `docs/assets/audio/<sample_id>/*.png`
 
 `docs/` is the GitHub Pages publish directory.
 
-## Demo Set Layout
+## Audio Example Set Layout
 
 Each set shows metadata at the top:
 
@@ -65,7 +65,7 @@ Each method output also displays:
 
 ## Sample Selection
 
-The builder selects `DEMO_PAGE_SAMPLE_COUNT` sets.
+The builder selects `PROJECT_PAGE_SAMPLE_COUNT` sets.
 
 Selection is automatic and prioritizes samples where:
 
@@ -90,13 +90,13 @@ The current order is sorted by:
 3. `Normal`, then `Anomaly`
 
 If more samples are needed than the number of buckets, the rotation repeats.
-With the current `DEMO_PAGE_SAMPLE_COUNT = 36`, each of the 12
+With the current `PROJECT_PAGE_SAMPLE_COUNT = 36`, each of the 12
 `robot x SNR x Ground Truth` buckets appears three times when enough
 candidates exist.
 
 ## Audio Scale
 
-Audio files keep the source scale when they are materialized for the demo page.
+Audio files keep the source scale when they are materialized for the project page.
 
 The builder loads each source track and writes it to `docs/assets/audio/`
 without peak normalization or any other amplitude scaling.
@@ -107,11 +107,11 @@ Every playable audio file has one spectrogram image directly above it.
 
 Spectrogram settings are defined only in `src/config.py`:
 
-- `DEMO_SPECTROGRAM_N_FFT`
-- `DEMO_SPECTROGRAM_HOP_LENGTH`
-- `DEMO_SPECTROGRAM_DB_MIN`
-- `DEMO_SPECTROGRAM_DB_MAX`
-- `DEMO_SPECTROGRAM_CMAP`
+- `PROJECT_PAGE_SPECTROGRAM_N_FFT`
+- `PROJECT_PAGE_SPECTROGRAM_HOP_LENGTH`
+- `PROJECT_PAGE_SPECTROGRAM_DB_MIN`
+- `PROJECT_PAGE_SPECTROGRAM_DB_MAX`
+- `PROJECT_PAGE_SPECTROGRAM_CMAP`
 
 Current settings:
 
@@ -130,7 +130,7 @@ A single shared colorbar is placed near the top of the page.
 Run:
 
 ```bash
-/home/koki/miniconda3/envs/sam-audio-new/bin/python scripts/build_demo_page.py
+/home/koki/miniconda3/envs/sam-audio-new/bin/python scripts/build_project_page.py
 ```
 
 This regenerates:
