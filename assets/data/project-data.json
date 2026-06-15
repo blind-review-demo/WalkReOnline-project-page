@@ -887,102 +887,6 @@
           ]
         },
         {
-          "sample_id": "G1_snrm06p0_0224_abnormal_siren_1-54084-A-42",
-          "robot": "G1",
-          "snr_db": -6.0,
-          "class": "siren",
-          "ground_truth": "Anomaly",
-          "selection_score": 8.313266215199999,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/mixture.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/ego_noise.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/target.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.55677879,
-              "saj_score": 4.98616982,
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/EgoSep.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.27230874,
-              "saj_score": 3.78233075,
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/Sam-Audio.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.33094802,
-              "saj_score": 1.96663368,
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/clapsep.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.33079317,
-              "saj_score": 2.29479265,
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.26925385,
-              "saj_score": 3.25765419,
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.38750076,
-              "saj_score": 2.3422153,
-              "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_conformer.wav",
-              "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "Go1_snrm06p0_0132_normal_sneezing_2-118104-A-21",
           "robot": "Go1",
           "snr_db": -6.0,
@@ -1171,102 +1075,6 @@
               "saj_score": 3.56605315,
               "audio": "assets/audio/04_Go1_snrm06p0_0013_abnormal_gun_shot_216312/espnet_conformer.wav",
               "spectrogram": "assets/audio/04_Go1_snrm06p0_0013_abnormal_gun_shot_216312/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "G1_snrp00p0_0400_normal_cat_5-169983-A-5",
-          "robot": "G1",
-          "snr_db": 0.0,
-          "class": "cat",
-          "ground_truth": "Normal",
-          "selection_score": 6.6450164879999996,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/mixture.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/ego_noise.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/target.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.73218465,
-              "saj_score": 3.69529009,
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/EgoSep.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.59402329,
-              "saj_score": 2.19680548,
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/Sam-Audio.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.63098931,
-              "saj_score": 1.46243513,
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/clapsep.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.63084441,
-              "saj_score": 3.21318936,
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.52445948,
-              "saj_score": 2.86686897,
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.70504665,
-              "saj_score": 2.95330238,
-              "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_conformer.wav",
-              "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_conformer.png"
             }
           ]
         },
@@ -1559,102 +1367,6 @@
           ]
         },
         {
-          "sample_id": "G1_snrp06p0_0306_normal_hen_1-72229-A-6",
-          "robot": "G1",
-          "snr_db": 6.0,
-          "class": "hen",
-          "ground_truth": "Normal",
-          "selection_score": 5.9474847092,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/mixture.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/ego_noise.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/target.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.85366422,
-              "saj_score": 4.5030098,
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/EgoSep.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.7927385,
-              "saj_score": 2.58646226,
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/Sam-Audio.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.81106937,
-              "saj_score": 2.31654167,
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/clapsep.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.88418394,
-              "saj_score": 2.67764115,
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.78516883,
-              "saj_score": 3.24375224,
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.76021028,
-              "saj_score": 2.82383561,
-              "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_conformer.wav",
-              "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "G1_snrp06p0_0088_abnormal_baby_cry_60083",
           "robot": "G1",
           "snr_db": 6.0,
@@ -1747,102 +1459,6 @@
               "saj_score": 3.6853745,
               "audio": "assets/audio/10_G1_snrp06p0_0088_abnormal_baby_cry_60083/espnet_conformer.wav",
               "spectrogram": "assets/audio/10_G1_snrp06p0_0088_abnormal_baby_cry_60083/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48",
-          "robot": "Go1",
-          "snr_db": 6.0,
-          "class": "fireworks",
-          "ground_truth": "Normal",
-          "selection_score": 6.7636310584,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/mixture.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/ego_noise.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/target.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.38134915,
-              "saj_score": 3.65390253,
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/EgoSep.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.36940575,
-              "saj_score": 2.43086672,
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/Sam-Audio.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.71908593,
-              "saj_score": 3.91485119,
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/clapsep.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.84816206,
-              "saj_score": 3.5144093,
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.59239703,
-              "saj_score": 3.13894272,
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.67443377,
-              "saj_score": 2.60072351,
-              "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_conformer.wav",
-              "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_conformer.png"
             }
           ]
         },
@@ -1943,102 +1559,6 @@
           ]
         },
         {
-          "sample_id": "G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37",
-          "robot": "G1",
-          "snr_db": -6.0,
-          "class": "clock alarm",
-          "ground_truth": "Normal",
-          "selection_score": 6.5080362196,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/mixture.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/ego_noise.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/target.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.59958345,
-              "saj_score": 4.75722408,
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/EgoSep.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.29389521,
-              "saj_score": 1.01592922,
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/Sam-Audio.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.50821024,
-              "saj_score": 1.0376724,
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/clapsep.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.61670035,
-              "saj_score": 4.0885787,
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.5729692,
-              "saj_score": 4.78660774,
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.57137543,
-              "saj_score": 4.70652246,
-              "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_conformer.wav",
-              "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "G1_snrm06p0_0491_abnormal_glass_break_216284",
           "robot": "G1",
           "snr_db": -6.0,
@@ -2131,102 +1651,6 @@
               "saj_score": 4.27826595,
               "audio": "assets/audio/14_G1_snrm06p0_0491_abnormal_glass_break_216284/espnet_conformer.wav",
               "spectrogram": "assets/audio/14_G1_snrm06p0_0491_abnormal_glass_break_216284/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "Go1_snrm06p0_0455_normal_coughing_4-155650-A-24",
-          "robot": "Go1",
-          "snr_db": -6.0,
-          "class": "coughing",
-          "ground_truth": "Normal",
-          "selection_score": 6.94170467,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/mixture.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/ego_noise.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/target.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.77050781,
-              "saj_score": 3.17807937,
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/EgoSep.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.25210109,
-              "saj_score": 1.00137603,
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/Sam-Audio.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.33848959,
-              "saj_score": 1.05631649,
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/clapsep.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.38865304,
-              "saj_score": 2.18614817,
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.33807623,
-              "saj_score": 1.96529019,
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.3318212,
-              "saj_score": 1.75489879,
-              "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_conformer.wav",
-              "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_conformer.png"
             }
           ]
         },
@@ -2327,102 +1751,6 @@
           ]
         },
         {
-          "sample_id": "G1_snrp00p0_0112_normal_crickets_5-216213-A-13",
-          "robot": "G1",
-          "snr_db": 0.0,
-          "class": "crickets",
-          "ground_truth": "Normal",
-          "selection_score": 6.1322544316,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/mixture.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/ego_noise.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/target.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.71052706,
-              "saj_score": 5.01665735,
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/EgoSep.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.24111149,
-              "saj_score": 1.02128732,
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/Sam-Audio.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.26925111,
-              "saj_score": 1.02656591,
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/clapsep.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.44464216,
-              "saj_score": 4.61707211,
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.58934212,
-              "saj_score": 4.03117228,
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.61796999,
-              "saj_score": 4.45453787,
-              "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_conformer.wav",
-              "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "G1_snrp00p0_0047_abnormal_baby_cry_202730",
           "robot": "G1",
           "snr_db": 0.0,
@@ -2515,198 +1843,6 @@
               "saj_score": 3.52119207,
               "audio": "assets/audio/18_G1_snrp00p0_0047_abnormal_baby_cry_202730/espnet_conformer.wav",
               "spectrogram": "assets/audio/18_G1_snrp00p0_0047_abnormal_baby_cry_202730/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "Go1_snrp00p0_0435_normal_laughing_4-181599-A-26",
-          "robot": "Go1",
-          "snr_db": 0.0,
-          "class": "laughing",
-          "ground_truth": "Normal",
-          "selection_score": 6.884869806799999,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/mixture.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/ego_noise.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/target.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.68884647,
-              "saj_score": 3.65774179,
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/EgoSep.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.59369439,
-              "saj_score": 3.80114889,
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/Sam-Audio.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.74670374,
-              "saj_score": 4.15137959,
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/clapsep.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.67334729,
-              "saj_score": 1.92087388,
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.67949414,
-              "saj_score": 2.27845144,
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.61327672,
-              "saj_score": 2.18365836,
-              "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_conformer.wav",
-              "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42",
-          "robot": "Go1",
-          "snr_db": 0.0,
-          "class": "siren",
-          "ground_truth": "Anomaly",
-          "selection_score": 6.404432980399999,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/mixture.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/ego_noise.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/target.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.43656158,
-              "saj_score": 4.23259354,
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/EgoSep.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.07236134,
-              "saj_score": 1.06359267,
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/Sam-Audio.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.49653941,
-              "saj_score": 3.03969884,
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/clapsep.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.37597919,
-              "saj_score": 3.12840891,
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.44156361,
-              "saj_score": 3.90809536,
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.34181702,
-              "saj_score": 3.95017147,
-              "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_conformer.wav",
-              "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_conformer.png"
             }
           ]
         },
@@ -3095,102 +2231,6 @@
           ]
         },
         {
-          "sample_id": "G1_snrm06p0_0375_normal_helicopter_5-177957-B-40",
-          "robot": "G1",
-          "snr_db": -6.0,
-          "class": "helicopter",
-          "ground_truth": "Normal",
-          "selection_score": 5.8949693508,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/mixture.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/ego_noise.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/target.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.54959428,
-              "saj_score": 4.54773045,
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/EgoSep.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.3857173,
-              "saj_score": 4.88317442,
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/Sam-Audio.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.28100872,
-              "saj_score": 1.23252535,
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/clapsep.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.30696929,
-              "saj_score": 1.03329253,
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.34160465,
-              "saj_score": 0.95835233,
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.29918483,
-              "saj_score": 1.46432948,
-              "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_conformer.wav",
-              "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "G1_snrm06p0_0494_abnormal_baby_cry_33671",
           "robot": "G1",
           "snr_db": -6.0,
@@ -3475,198 +2515,6 @@
               "saj_score": 3.69225693,
               "audio": "assets/audio/28_Go1_snrm06p0_0290_abnormal_glass_break_216281/espnet_conformer.wav",
               "spectrogram": "assets/audio/28_Go1_snrm06p0_0290_abnormal_glass_break_216281/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "G1_snrp00p0_0228_normal_wind_1-51037-A-16",
-          "robot": "G1",
-          "snr_db": 0.0,
-          "class": "wind",
-          "ground_truth": "Normal",
-          "selection_score": 6.0614490284,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/mixture.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/ego_noise.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/target.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.73604602,
-              "saj_score": 4.52041769,
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/EgoSep.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": -0.06976976,
-              "saj_score": 0.89962268,
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/Sam-Audio.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.27677953,
-              "saj_score": 0.82038593,
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/clapsep.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.56755567,
-              "saj_score": 3.16142917,
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.54751021,
-              "saj_score": 2.78145099,
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.51160026,
-              "saj_score": 1.93148553,
-              "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_conformer.wav",
-              "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "G1_snrp00p0_0147_abnormal_siren_1-54084-A-42",
-          "robot": "G1",
-          "snr_db": 0.0,
-          "class": "siren",
-          "ground_truth": "Anomaly",
-          "selection_score": 6.0285769068,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/mixture.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/ego_noise.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/target.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.65671122,
-              "saj_score": 4.49868059,
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/EgoSep.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.24196897,
-              "saj_score": 1.60121667,
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/Sam-Audio.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.31612712,
-              "saj_score": 3.79142427,
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/clapsep.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.39840937,
-              "saj_score": 2.82382321,
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.30651104,
-              "saj_score": 3.19807315,
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.55470085,
-              "saj_score": 4.33454084,
-              "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_conformer.wav",
-              "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_conformer.png"
             }
           ]
         },
@@ -4055,102 +2903,6 @@
           ]
         },
         {
-          "sample_id": "Go1_snrp06p0_0211_normal_crow_3-117293-A-9",
-          "robot": "Go1",
-          "snr_db": 6.0,
-          "class": "crow",
-          "ground_truth": "Normal",
-          "selection_score": 5.833279932,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/mixture.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/ego_noise.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/target.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.86115605,
-              "saj_score": 4.45246553,
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/EgoSep.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.15693894,
-              "saj_score": 1.00920737,
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/Sam-Audio.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.80834061,
-              "saj_score": 4.85557938,
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/clapsep.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.72825736,
-              "saj_score": 3.96674967,
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.51211256,
-              "saj_score": 3.1635344,
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.68030632,
-              "saj_score": 3.10822821,
-              "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_conformer.wav",
-              "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "Go1_snrp06p0_0474_abnormal_screaming_ygAoDKnuXRU_out",
           "robot": "Go1",
           "snr_db": 6.0,
@@ -4243,198 +2995,6 @@
               "saj_score": 3.34395528,
               "audio": "assets/audio/36_Go1_snrp06p0_0474_abnormal_screaming_ygAoDKnuXRU_out/espnet_conformer.wav",
               "spectrogram": "assets/audio/36_Go1_snrp06p0_0474_abnormal_screaming_ygAoDKnuXRU_out/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "G1_snrm06p0_0410_normal_rooster_5-200334-B-1",
-          "robot": "G1",
-          "snr_db": -6.0,
-          "class": "rooster",
-          "ground_truth": "Normal",
-          "selection_score": 5.7548407532,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/mixture.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/ego_noise.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/target.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.84615445,
-              "saj_score": 3.35538435,
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/EgoSep.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.14651874,
-              "saj_score": 0.98587227,
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/Sam-Audio.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.58127391,
-              "saj_score": 1.33706069,
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/clapsep.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.54371035,
-              "saj_score": 3.48433018,
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.24645072,
-              "saj_score": 4.00566483,
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.04215442,
-              "saj_score": 3.62374353,
-              "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_conformer.wav",
-              "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "G1_snrm06p0_0371_abnormal_siren_5-150409-A-42",
-          "robot": "G1",
-          "snr_db": -6.0,
-          "class": "siren",
-          "ground_truth": "Anomaly",
-          "selection_score": 8.112045177999999,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/mixture.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/ego_noise.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/target.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.69419599,
-              "saj_score": 4.38715696,
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/EgoSep.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.68636531,
-              "saj_score": 3.54790711,
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/Sam-Audio.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.42747954,
-              "saj_score": 2.07080793,
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/clapsep.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.51634181,
-              "saj_score": 2.39691901,
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.49744454,
-              "saj_score": 3.35989666,
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.50751126,
-              "saj_score": 2.74464321,
-              "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_conformer.wav",
-              "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_conformer.png"
             }
           ]
         },
@@ -4631,102 +3191,6 @@
           ]
         },
         {
-          "sample_id": "G1_snrp00p0_0374_normal_snoring_4-197454-B-28",
-          "robot": "G1",
-          "snr_db": 0.0,
-          "class": "snoring",
-          "ground_truth": "Normal",
-          "selection_score": 5.714640302399999,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/mixture.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/ego_noise.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/target.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.93408346,
-              "saj_score": 4.9196949,
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/EgoSep.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.13182718,
-              "saj_score": 1.07151842,
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/Sam-Audio.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.19084749,
-              "saj_score": 1.17730558,
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/clapsep.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.77039593,
-              "saj_score": 3.12326455,
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.78045332,
-              "saj_score": 3.45288706,
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.78051406,
-              "saj_score": 3.67359328,
-              "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_conformer.wav",
-              "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "G1_snrp00p0_0412_abnormal_gun_shot_216315",
           "robot": "G1",
           "snr_db": 0.0,
@@ -4823,102 +3287,6 @@
           ]
         },
         {
-          "sample_id": "Go1_snrp00p0_0384_normal_clapping_3-130330-A-22",
-          "robot": "Go1",
-          "snr_db": 0.0,
-          "class": "clapping",
-          "ground_truth": "Normal",
-          "selection_score": 6.3239917796,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/mixture.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/ego_noise.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/target.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.48739266,
-              "saj_score": 3.62423944,
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/EgoSep.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.24362528,
-              "saj_score": 1.96351182,
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/Sam-Audio.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.34007061,
-              "saj_score": 1.67291677,
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/clapsep.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.51151067,
-              "saj_score": 3.14013171,
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.4449001,
-              "saj_score": 2.16010213,
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.55045187,
-              "saj_score": 2.36870241,
-              "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_conformer.wav",
-              "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_conformer.png"
-            }
-          ]
-        },
-        {
           "sample_id": "Go1_snrp00p0_0290_abnormal_glass_break_216281",
           "robot": "Go1",
           "snr_db": 0.0,
@@ -5011,198 +3379,6 @@
               "saj_score": 4.19488525,
               "audio": "assets/audio/44_Go1_snrp00p0_0290_abnormal_glass_break_216281/espnet_conformer.wav",
               "spectrogram": "assets/audio/44_Go1_snrp00p0_0290_abnormal_glass_break_216281/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "G1_snrp06p0_0318_normal_pig_3-253084-E-2",
-          "robot": "G1",
-          "snr_db": 6.0,
-          "class": "pig",
-          "ground_truth": "Normal",
-          "selection_score": 5.3983604472,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/mixture.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/ego_noise.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/target.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.89395088,
-              "saj_score": 4.87624598,
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/EgoSep.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.87243545,
-              "saj_score": 3.31873846,
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/Sam-Audio.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.5828805,
-              "saj_score": 1.01142085,
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/clapsep.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.93405855,
-              "saj_score": 3.31936812,
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": true,
-              "cap_score": 0.80151117,
-              "saj_score": 3.60297489,
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": false,
-              "cap_score": 0.84174883,
-              "saj_score": 3.31045961,
-              "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_conformer.wav",
-              "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_conformer.png"
-            }
-          ]
-        },
-        {
-          "sample_id": "G1_snrp06p0_0250_abnormal_siren_5-117118-A-42",
-          "robot": "G1",
-          "snr_db": 6.0,
-          "class": "siren",
-          "ground_truth": "Anomaly",
-          "selection_score": 5.9039483008,
-          "reference_tracks": [
-            {
-              "key": "mixture",
-              "label": "Mixture",
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/mixture.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/mixture.png"
-            },
-            {
-              "key": "ego_noise",
-              "label": "Ego-Noise",
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/ego_noise.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/ego_noise.png"
-            },
-            {
-              "key": "target",
-              "label": "Target",
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/target.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/target.png"
-            }
-          ],
-          "method_tracks": [
-            {
-              "method": "EgoSep",
-              "label": "EgoSep (Ours)",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.90703177,
-              "saj_score": 3.77132607,
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/EgoSep.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/EgoSep.png"
-            },
-            {
-              "method": "Sam-Audio",
-              "label": "SAM-Audio",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.23712575,
-              "saj_score": 1.1499263,
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/Sam-Audio.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/Sam-Audio.png"
-            },
-            {
-              "method": "clapsep",
-              "label": "CLAPSep",
-              "prediction": "Normal",
-              "prediction_status": "Normal",
-              "correct": false,
-              "cap_score": 0.70410502,
-              "saj_score": 2.01105976,
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/clapsep.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/clapsep.png"
-            },
-            {
-              "method": "espnet_convtasnet",
-              "label": "Conv-TasNet",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.90857828,
-              "saj_score": 3.31524181,
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_convtasnet.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_convtasnet.png"
-            },
-            {
-              "method": "espnet_dprnn_tf",
-              "label": "Dual-Path RNN",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.88960469,
-              "saj_score": 3.10545206,
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_dprnn_tf.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_dprnn_tf.png"
-            },
-            {
-              "method": "espnet_conformer",
-              "label": "Conformer",
-              "prediction": "Anomaly",
-              "prediction_status": "Anomaly",
-              "correct": true,
-              "cap_score": 0.91033465,
-              "saj_score": 3.30710077,
-              "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_conformer.wav",
-              "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_conformer.png"
             }
           ]
         },
@@ -5499,102 +3675,6 @@
       ]
     },
     {
-      "sample_id": "G1_snrm06p0_0224_abnormal_siren_1-54084-A-42",
-      "robot": "G1",
-      "snr_db": -6.0,
-      "class": "siren",
-      "ground_truth": "Anomaly",
-      "selection_score": 8.313266215199999,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/mixture.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/ego_noise.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/target.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.55677879,
-          "saj_score": 4.98616982,
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/EgoSep.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.27230874,
-          "saj_score": 3.78233075,
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/Sam-Audio.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.33094802,
-          "saj_score": 1.96663368,
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/clapsep.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.33079317,
-          "saj_score": 2.29479265,
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.26925385,
-          "saj_score": 3.25765419,
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.38750076,
-          "saj_score": 2.3422153,
-          "audio": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_conformer.wav",
-          "spectrogram": "assets/audio/02_G1_snrm06p0_0224_abnormal_siren_1-54084-A-42/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "Go1_snrm06p0_0132_normal_sneezing_2-118104-A-21",
       "robot": "Go1",
       "snr_db": -6.0,
@@ -5783,102 +3863,6 @@
           "saj_score": 3.56605315,
           "audio": "assets/audio/04_Go1_snrm06p0_0013_abnormal_gun_shot_216312/espnet_conformer.wav",
           "spectrogram": "assets/audio/04_Go1_snrm06p0_0013_abnormal_gun_shot_216312/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "G1_snrp00p0_0400_normal_cat_5-169983-A-5",
-      "robot": "G1",
-      "snr_db": 0.0,
-      "class": "cat",
-      "ground_truth": "Normal",
-      "selection_score": 6.6450164879999996,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/mixture.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/ego_noise.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/target.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.73218465,
-          "saj_score": 3.69529009,
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/EgoSep.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.59402329,
-          "saj_score": 2.19680548,
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/Sam-Audio.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.63098931,
-          "saj_score": 1.46243513,
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/clapsep.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.63084441,
-          "saj_score": 3.21318936,
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.52445948,
-          "saj_score": 2.86686897,
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.70504665,
-          "saj_score": 2.95330238,
-          "audio": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_conformer.wav",
-          "spectrogram": "assets/audio/05_G1_snrp00p0_0400_normal_cat_5-169983-A-5/espnet_conformer.png"
         }
       ]
     },
@@ -6171,102 +4155,6 @@
       ]
     },
     {
-      "sample_id": "G1_snrp06p0_0306_normal_hen_1-72229-A-6",
-      "robot": "G1",
-      "snr_db": 6.0,
-      "class": "hen",
-      "ground_truth": "Normal",
-      "selection_score": 5.9474847092,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/mixture.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/ego_noise.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/target.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.85366422,
-          "saj_score": 4.5030098,
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/EgoSep.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.7927385,
-          "saj_score": 2.58646226,
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/Sam-Audio.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.81106937,
-          "saj_score": 2.31654167,
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/clapsep.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.88418394,
-          "saj_score": 2.67764115,
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.78516883,
-          "saj_score": 3.24375224,
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.76021028,
-          "saj_score": 2.82383561,
-          "audio": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_conformer.wav",
-          "spectrogram": "assets/audio/09_G1_snrp06p0_0306_normal_hen_1-72229-A-6/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "G1_snrp06p0_0088_abnormal_baby_cry_60083",
       "robot": "G1",
       "snr_db": 6.0,
@@ -6359,102 +4247,6 @@
           "saj_score": 3.6853745,
           "audio": "assets/audio/10_G1_snrp06p0_0088_abnormal_baby_cry_60083/espnet_conformer.wav",
           "spectrogram": "assets/audio/10_G1_snrp06p0_0088_abnormal_baby_cry_60083/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48",
-      "robot": "Go1",
-      "snr_db": 6.0,
-      "class": "fireworks",
-      "ground_truth": "Normal",
-      "selection_score": 6.7636310584,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/mixture.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/ego_noise.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/target.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.38134915,
-          "saj_score": 3.65390253,
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/EgoSep.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.36940575,
-          "saj_score": 2.43086672,
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/Sam-Audio.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.71908593,
-          "saj_score": 3.91485119,
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/clapsep.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.84816206,
-          "saj_score": 3.5144093,
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.59239703,
-          "saj_score": 3.13894272,
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.67443377,
-          "saj_score": 2.60072351,
-          "audio": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_conformer.wav",
-          "spectrogram": "assets/audio/11_Go1_snrp06p0_0478_normal_fireworks_4-119648-A-48/espnet_conformer.png"
         }
       ]
     },
@@ -6555,102 +4347,6 @@
       ]
     },
     {
-      "sample_id": "G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37",
-      "robot": "G1",
-      "snr_db": -6.0,
-      "class": "clock alarm",
-      "ground_truth": "Normal",
-      "selection_score": 6.5080362196,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/mixture.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/ego_noise.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/target.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.59958345,
-          "saj_score": 4.75722408,
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/EgoSep.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.29389521,
-          "saj_score": 1.01592922,
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/Sam-Audio.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.50821024,
-          "saj_score": 1.0376724,
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/clapsep.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.61670035,
-          "saj_score": 4.0885787,
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.5729692,
-          "saj_score": 4.78660774,
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.57137543,
-          "saj_score": 4.70652246,
-          "audio": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_conformer.wav",
-          "spectrogram": "assets/audio/13_G1_snrm06p0_0220_normal_clock_alarm_5-210612-A-37/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "G1_snrm06p0_0491_abnormal_glass_break_216284",
       "robot": "G1",
       "snr_db": -6.0,
@@ -6743,102 +4439,6 @@
           "saj_score": 4.27826595,
           "audio": "assets/audio/14_G1_snrm06p0_0491_abnormal_glass_break_216284/espnet_conformer.wav",
           "spectrogram": "assets/audio/14_G1_snrm06p0_0491_abnormal_glass_break_216284/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "Go1_snrm06p0_0455_normal_coughing_4-155650-A-24",
-      "robot": "Go1",
-      "snr_db": -6.0,
-      "class": "coughing",
-      "ground_truth": "Normal",
-      "selection_score": 6.94170467,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/mixture.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/ego_noise.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/target.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.77050781,
-          "saj_score": 3.17807937,
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/EgoSep.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.25210109,
-          "saj_score": 1.00137603,
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/Sam-Audio.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.33848959,
-          "saj_score": 1.05631649,
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/clapsep.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.38865304,
-          "saj_score": 2.18614817,
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.33807623,
-          "saj_score": 1.96529019,
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.3318212,
-          "saj_score": 1.75489879,
-          "audio": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_conformer.wav",
-          "spectrogram": "assets/audio/15_Go1_snrm06p0_0455_normal_coughing_4-155650-A-24/espnet_conformer.png"
         }
       ]
     },
@@ -6939,102 +4539,6 @@
       ]
     },
     {
-      "sample_id": "G1_snrp00p0_0112_normal_crickets_5-216213-A-13",
-      "robot": "G1",
-      "snr_db": 0.0,
-      "class": "crickets",
-      "ground_truth": "Normal",
-      "selection_score": 6.1322544316,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/mixture.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/ego_noise.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/target.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.71052706,
-          "saj_score": 5.01665735,
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/EgoSep.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.24111149,
-          "saj_score": 1.02128732,
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/Sam-Audio.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.26925111,
-          "saj_score": 1.02656591,
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/clapsep.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.44464216,
-          "saj_score": 4.61707211,
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.58934212,
-          "saj_score": 4.03117228,
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.61796999,
-          "saj_score": 4.45453787,
-          "audio": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_conformer.wav",
-          "spectrogram": "assets/audio/17_G1_snrp00p0_0112_normal_crickets_5-216213-A-13/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "G1_snrp00p0_0047_abnormal_baby_cry_202730",
       "robot": "G1",
       "snr_db": 0.0,
@@ -7127,198 +4631,6 @@
           "saj_score": 3.52119207,
           "audio": "assets/audio/18_G1_snrp00p0_0047_abnormal_baby_cry_202730/espnet_conformer.wav",
           "spectrogram": "assets/audio/18_G1_snrp00p0_0047_abnormal_baby_cry_202730/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "Go1_snrp00p0_0435_normal_laughing_4-181599-A-26",
-      "robot": "Go1",
-      "snr_db": 0.0,
-      "class": "laughing",
-      "ground_truth": "Normal",
-      "selection_score": 6.884869806799999,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/mixture.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/ego_noise.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/target.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.68884647,
-          "saj_score": 3.65774179,
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/EgoSep.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.59369439,
-          "saj_score": 3.80114889,
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/Sam-Audio.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.74670374,
-          "saj_score": 4.15137959,
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/clapsep.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.67334729,
-          "saj_score": 1.92087388,
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.67949414,
-          "saj_score": 2.27845144,
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.61327672,
-          "saj_score": 2.18365836,
-          "audio": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_conformer.wav",
-          "spectrogram": "assets/audio/19_Go1_snrp00p0_0435_normal_laughing_4-181599-A-26/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42",
-      "robot": "Go1",
-      "snr_db": 0.0,
-      "class": "siren",
-      "ground_truth": "Anomaly",
-      "selection_score": 6.404432980399999,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/mixture.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/ego_noise.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/target.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.43656158,
-          "saj_score": 4.23259354,
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/EgoSep.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.07236134,
-          "saj_score": 1.06359267,
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/Sam-Audio.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.49653941,
-          "saj_score": 3.03969884,
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/clapsep.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.37597919,
-          "saj_score": 3.12840891,
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.44156361,
-          "saj_score": 3.90809536,
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.34181702,
-          "saj_score": 3.95017147,
-          "audio": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_conformer.wav",
-          "spectrogram": "assets/audio/20_Go1_snrp00p0_0169_abnormal_siren_4-102871-A-42/espnet_conformer.png"
         }
       ]
     },
@@ -7707,102 +5019,6 @@
       ]
     },
     {
-      "sample_id": "G1_snrm06p0_0375_normal_helicopter_5-177957-B-40",
-      "robot": "G1",
-      "snr_db": -6.0,
-      "class": "helicopter",
-      "ground_truth": "Normal",
-      "selection_score": 5.8949693508,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/mixture.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/ego_noise.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/target.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.54959428,
-          "saj_score": 4.54773045,
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/EgoSep.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.3857173,
-          "saj_score": 4.88317442,
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/Sam-Audio.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.28100872,
-          "saj_score": 1.23252535,
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/clapsep.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.30696929,
-          "saj_score": 1.03329253,
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.34160465,
-          "saj_score": 0.95835233,
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.29918483,
-          "saj_score": 1.46432948,
-          "audio": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_conformer.wav",
-          "spectrogram": "assets/audio/25_G1_snrm06p0_0375_normal_helicopter_5-177957-B-40/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "G1_snrm06p0_0494_abnormal_baby_cry_33671",
       "robot": "G1",
       "snr_db": -6.0,
@@ -8087,198 +5303,6 @@
           "saj_score": 3.69225693,
           "audio": "assets/audio/28_Go1_snrm06p0_0290_abnormal_glass_break_216281/espnet_conformer.wav",
           "spectrogram": "assets/audio/28_Go1_snrm06p0_0290_abnormal_glass_break_216281/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "G1_snrp00p0_0228_normal_wind_1-51037-A-16",
-      "robot": "G1",
-      "snr_db": 0.0,
-      "class": "wind",
-      "ground_truth": "Normal",
-      "selection_score": 6.0614490284,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/mixture.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/ego_noise.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/target.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.73604602,
-          "saj_score": 4.52041769,
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/EgoSep.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": -0.06976976,
-          "saj_score": 0.89962268,
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/Sam-Audio.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.27677953,
-          "saj_score": 0.82038593,
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/clapsep.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.56755567,
-          "saj_score": 3.16142917,
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.54751021,
-          "saj_score": 2.78145099,
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.51160026,
-          "saj_score": 1.93148553,
-          "audio": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_conformer.wav",
-          "spectrogram": "assets/audio/29_G1_snrp00p0_0228_normal_wind_1-51037-A-16/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "G1_snrp00p0_0147_abnormal_siren_1-54084-A-42",
-      "robot": "G1",
-      "snr_db": 0.0,
-      "class": "siren",
-      "ground_truth": "Anomaly",
-      "selection_score": 6.0285769068,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/mixture.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/ego_noise.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/target.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.65671122,
-          "saj_score": 4.49868059,
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/EgoSep.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.24196897,
-          "saj_score": 1.60121667,
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/Sam-Audio.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.31612712,
-          "saj_score": 3.79142427,
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/clapsep.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.39840937,
-          "saj_score": 2.82382321,
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.30651104,
-          "saj_score": 3.19807315,
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.55470085,
-          "saj_score": 4.33454084,
-          "audio": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_conformer.wav",
-          "spectrogram": "assets/audio/30_G1_snrp00p0_0147_abnormal_siren_1-54084-A-42/espnet_conformer.png"
         }
       ]
     },
@@ -8667,102 +5691,6 @@
       ]
     },
     {
-      "sample_id": "Go1_snrp06p0_0211_normal_crow_3-117293-A-9",
-      "robot": "Go1",
-      "snr_db": 6.0,
-      "class": "crow",
-      "ground_truth": "Normal",
-      "selection_score": 5.833279932,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/mixture.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/ego_noise.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/target.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.86115605,
-          "saj_score": 4.45246553,
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/EgoSep.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.15693894,
-          "saj_score": 1.00920737,
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/Sam-Audio.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.80834061,
-          "saj_score": 4.85557938,
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/clapsep.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.72825736,
-          "saj_score": 3.96674967,
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.51211256,
-          "saj_score": 3.1635344,
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.68030632,
-          "saj_score": 3.10822821,
-          "audio": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_conformer.wav",
-          "spectrogram": "assets/audio/35_Go1_snrp06p0_0211_normal_crow_3-117293-A-9/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "Go1_snrp06p0_0474_abnormal_screaming_ygAoDKnuXRU_out",
       "robot": "Go1",
       "snr_db": 6.0,
@@ -8855,198 +5783,6 @@
           "saj_score": 3.34395528,
           "audio": "assets/audio/36_Go1_snrp06p0_0474_abnormal_screaming_ygAoDKnuXRU_out/espnet_conformer.wav",
           "spectrogram": "assets/audio/36_Go1_snrp06p0_0474_abnormal_screaming_ygAoDKnuXRU_out/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "G1_snrm06p0_0410_normal_rooster_5-200334-B-1",
-      "robot": "G1",
-      "snr_db": -6.0,
-      "class": "rooster",
-      "ground_truth": "Normal",
-      "selection_score": 5.7548407532,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/mixture.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/ego_noise.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/target.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.84615445,
-          "saj_score": 3.35538435,
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/EgoSep.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.14651874,
-          "saj_score": 0.98587227,
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/Sam-Audio.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.58127391,
-          "saj_score": 1.33706069,
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/clapsep.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.54371035,
-          "saj_score": 3.48433018,
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.24645072,
-          "saj_score": 4.00566483,
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.04215442,
-          "saj_score": 3.62374353,
-          "audio": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_conformer.wav",
-          "spectrogram": "assets/audio/37_G1_snrm06p0_0410_normal_rooster_5-200334-B-1/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "G1_snrm06p0_0371_abnormal_siren_5-150409-A-42",
-      "robot": "G1",
-      "snr_db": -6.0,
-      "class": "siren",
-      "ground_truth": "Anomaly",
-      "selection_score": 8.112045177999999,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/mixture.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/ego_noise.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/target.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.69419599,
-          "saj_score": 4.38715696,
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/EgoSep.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.68636531,
-          "saj_score": 3.54790711,
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/Sam-Audio.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.42747954,
-          "saj_score": 2.07080793,
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/clapsep.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.51634181,
-          "saj_score": 2.39691901,
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.49744454,
-          "saj_score": 3.35989666,
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.50751126,
-          "saj_score": 2.74464321,
-          "audio": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_conformer.wav",
-          "spectrogram": "assets/audio/38_G1_snrm06p0_0371_abnormal_siren_5-150409-A-42/espnet_conformer.png"
         }
       ]
     },
@@ -9243,102 +5979,6 @@
       ]
     },
     {
-      "sample_id": "G1_snrp00p0_0374_normal_snoring_4-197454-B-28",
-      "robot": "G1",
-      "snr_db": 0.0,
-      "class": "snoring",
-      "ground_truth": "Normal",
-      "selection_score": 5.714640302399999,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/mixture.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/ego_noise.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/target.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.93408346,
-          "saj_score": 4.9196949,
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/EgoSep.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.13182718,
-          "saj_score": 1.07151842,
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/Sam-Audio.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.19084749,
-          "saj_score": 1.17730558,
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/clapsep.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.77039593,
-          "saj_score": 3.12326455,
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.78045332,
-          "saj_score": 3.45288706,
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.78051406,
-          "saj_score": 3.67359328,
-          "audio": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_conformer.wav",
-          "spectrogram": "assets/audio/41_G1_snrp00p0_0374_normal_snoring_4-197454-B-28/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "G1_snrp00p0_0412_abnormal_gun_shot_216315",
       "robot": "G1",
       "snr_db": 0.0,
@@ -9435,102 +6075,6 @@
       ]
     },
     {
-      "sample_id": "Go1_snrp00p0_0384_normal_clapping_3-130330-A-22",
-      "robot": "Go1",
-      "snr_db": 0.0,
-      "class": "clapping",
-      "ground_truth": "Normal",
-      "selection_score": 6.3239917796,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/mixture.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/ego_noise.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/target.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.48739266,
-          "saj_score": 3.62423944,
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/EgoSep.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.24362528,
-          "saj_score": 1.96351182,
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/Sam-Audio.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.34007061,
-          "saj_score": 1.67291677,
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/clapsep.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.51151067,
-          "saj_score": 3.14013171,
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.4449001,
-          "saj_score": 2.16010213,
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.55045187,
-          "saj_score": 2.36870241,
-          "audio": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_conformer.wav",
-          "spectrogram": "assets/audio/43_Go1_snrp00p0_0384_normal_clapping_3-130330-A-22/espnet_conformer.png"
-        }
-      ]
-    },
-    {
       "sample_id": "Go1_snrp00p0_0290_abnormal_glass_break_216281",
       "robot": "Go1",
       "snr_db": 0.0,
@@ -9623,198 +6167,6 @@
           "saj_score": 4.19488525,
           "audio": "assets/audio/44_Go1_snrp00p0_0290_abnormal_glass_break_216281/espnet_conformer.wav",
           "spectrogram": "assets/audio/44_Go1_snrp00p0_0290_abnormal_glass_break_216281/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "G1_snrp06p0_0318_normal_pig_3-253084-E-2",
-      "robot": "G1",
-      "snr_db": 6.0,
-      "class": "pig",
-      "ground_truth": "Normal",
-      "selection_score": 5.3983604472,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/mixture.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/ego_noise.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/target.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.89395088,
-          "saj_score": 4.87624598,
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/EgoSep.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.87243545,
-          "saj_score": 3.31873846,
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/Sam-Audio.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.5828805,
-          "saj_score": 1.01142085,
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/clapsep.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.93405855,
-          "saj_score": 3.31936812,
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": true,
-          "cap_score": 0.80151117,
-          "saj_score": 3.60297489,
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": false,
-          "cap_score": 0.84174883,
-          "saj_score": 3.31045961,
-          "audio": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_conformer.wav",
-          "spectrogram": "assets/audio/45_G1_snrp06p0_0318_normal_pig_3-253084-E-2/espnet_conformer.png"
-        }
-      ]
-    },
-    {
-      "sample_id": "G1_snrp06p0_0250_abnormal_siren_5-117118-A-42",
-      "robot": "G1",
-      "snr_db": 6.0,
-      "class": "siren",
-      "ground_truth": "Anomaly",
-      "selection_score": 5.9039483008,
-      "reference_tracks": [
-        {
-          "key": "mixture",
-          "label": "Mixture",
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/mixture.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/mixture.png"
-        },
-        {
-          "key": "ego_noise",
-          "label": "Ego-Noise",
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/ego_noise.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/ego_noise.png"
-        },
-        {
-          "key": "target",
-          "label": "Target",
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/target.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/target.png"
-        }
-      ],
-      "method_tracks": [
-        {
-          "method": "EgoSep",
-          "label": "EgoSep (Ours)",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.90703177,
-          "saj_score": 3.77132607,
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/EgoSep.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/EgoSep.png"
-        },
-        {
-          "method": "Sam-Audio",
-          "label": "SAM-Audio",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.23712575,
-          "saj_score": 1.1499263,
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/Sam-Audio.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/Sam-Audio.png"
-        },
-        {
-          "method": "clapsep",
-          "label": "CLAPSep",
-          "prediction": "Normal",
-          "prediction_status": "Normal",
-          "correct": false,
-          "cap_score": 0.70410502,
-          "saj_score": 2.01105976,
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/clapsep.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/clapsep.png"
-        },
-        {
-          "method": "espnet_convtasnet",
-          "label": "Conv-TasNet",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.90857828,
-          "saj_score": 3.31524181,
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_convtasnet.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_convtasnet.png"
-        },
-        {
-          "method": "espnet_dprnn_tf",
-          "label": "Dual-Path RNN",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.88960469,
-          "saj_score": 3.10545206,
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_dprnn_tf.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_dprnn_tf.png"
-        },
-        {
-          "method": "espnet_conformer",
-          "label": "Conformer",
-          "prediction": "Anomaly",
-          "prediction_status": "Anomaly",
-          "correct": true,
-          "cap_score": 0.91033465,
-          "saj_score": 3.30710077,
-          "audio": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_conformer.wav",
-          "spectrogram": "assets/audio/46_G1_snrp06p0_0250_abnormal_siren_5-117118-A-42/espnet_conformer.png"
         }
       ]
     },
@@ -10112,15 +6464,6 @@
       "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
-      "sample": "siren_1-54084-A-42",
-      "category": "siren",
-      "dataset": "ESC-50",
-      "source_file": "1-54084-A-42.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/54084/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "sneezing_2-118104-A-21",
       "category": "sneezing",
       "dataset": "ESC-50",
@@ -10137,15 +6480,6 @@
       "creator": "RSilveira_88",
       "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216312/",
       "license": "http://creativecommons.org/licenses/by/3.0/"
-    },
-    {
-      "sample": "cat_5-169983-A-5",
-      "category": "cat",
-      "dataset": "ESC-50",
-      "source_file": "5-169983-A-5.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/169983/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
       "sample": "glass_break_98378",
@@ -10175,15 +6509,6 @@
       "license": "MIT License"
     },
     {
-      "sample": "hen_1-72229-A-6",
-      "category": "hen",
-      "dataset": "ESC-50",
-      "source_file": "1-72229-A-6.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/72229/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "baby_cry_60083",
       "category": "baby cry",
       "dataset": "TUT Rare Sound Events 2017 / Freesound",
@@ -10191,15 +6516,6 @@
       "creator": "Robinhood76",
       "source_url": "https://www.freesound.org/people/Robinhood76/sounds/60083/",
       "license": "http://creativecommons.org/licenses/by-nc/3.0/"
-    },
-    {
-      "sample": "fireworks_4-119648-A-48",
-      "category": "fireworks",
-      "dataset": "ESC-50",
-      "source_file": "4-119648-A-48.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/119648/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
       "sample": "gun_shot_199895",
@@ -10211,15 +6527,6 @@
       "license": "http://creativecommons.org/licenses/by/3.0/"
     },
     {
-      "sample": "clock_alarm_5-210612-A-37",
-      "category": "clock alarm",
-      "dataset": "ESC-50",
-      "source_file": "5-210612-A-37.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/210612/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "glass_break_216284",
       "category": "glass break",
       "dataset": "TUT Rare Sound Events 2017 / Freesound",
@@ -10227,15 +6534,6 @@
       "creator": "RSilveira_88",
       "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216284/",
       "license": "http://creativecommons.org/licenses/by/3.0/"
-    },
-    {
-      "sample": "coughing_4-155650-A-24",
-      "category": "coughing",
-      "dataset": "ESC-50",
-      "source_file": "4-155650-A-24.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/155650/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
       "sample": "screaming_JOio_mntPcE_out",
@@ -10247,15 +6545,6 @@
       "license": "MIT License"
     },
     {
-      "sample": "crickets_5-216213-A-13",
-      "category": "crickets",
-      "dataset": "ESC-50",
-      "source_file": "5-216213-A-13.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/216213/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "baby_cry_202730",
       "category": "baby cry",
       "dataset": "TUT Rare Sound Events 2017 / Freesound",
@@ -10263,24 +6552,6 @@
       "creator": "carolgee",
       "source_url": "https://www.freesound.org/people/carolgee/sounds/202730/",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/"
-    },
-    {
-      "sample": "laughing_4-181599-A-26",
-      "category": "laughing",
-      "dataset": "ESC-50",
-      "source_file": "4-181599-A-26.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/181599/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
-      "sample": "siren_4-102871-A-42",
-      "category": "siren",
-      "dataset": "ESC-50",
-      "source_file": "4-102871-A-42.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/102871/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
       "sample": "keyboard_typing_3-155570-A-32",
@@ -10319,15 +6590,6 @@
       "license": "http://creativecommons.org/licenses/by/3.0/"
     },
     {
-      "sample": "helicopter_5-177957-B-40",
-      "category": "helicopter",
-      "dataset": "ESC-50",
-      "source_file": "5-177957-B-40.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/177957/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "baby_cry_33671",
       "category": "baby cry",
       "dataset": "TUT Rare Sound Events 2017 / Freesound",
@@ -10353,24 +6615,6 @@
       "creator": "RSilveira_88",
       "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216281/",
       "license": "http://creativecommons.org/licenses/by/3.0/"
-    },
-    {
-      "sample": "wind_1-51037-A-16",
-      "category": "wind",
-      "dataset": "ESC-50",
-      "source_file": "1-51037-A-16.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/51037/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
-      "sample": "siren_1-54084-A-42",
-      "category": "siren",
-      "dataset": "ESC-50",
-      "source_file": "1-54084-A-42.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/54084/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
       "sample": "thunderstorm_5-156999-B-19",
@@ -10409,15 +6653,6 @@
       "license": "http://creativecommons.org/licenses/by/3.0/"
     },
     {
-      "sample": "crow_3-117293-A-9",
-      "category": "crow",
-      "dataset": "ESC-50",
-      "source_file": "3-117293-A-9.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/117293/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "screaming_ygAoDKnuXRU_out",
       "category": "screaming",
       "dataset": "Human Screaming Detection Dataset",
@@ -10425,24 +6660,6 @@
       "creator": "whats2000",
       "source_url": "https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset",
       "license": "MIT License"
-    },
-    {
-      "sample": "rooster_5-200334-B-1",
-      "category": "rooster",
-      "dataset": "ESC-50",
-      "source_file": "5-200334-B-1.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/200334/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
-      "sample": "siren_5-150409-A-42",
-      "category": "siren",
-      "dataset": "ESC-50",
-      "source_file": "5-150409-A-42.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/150409/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
       "sample": "airplane_4-255371-A-47",
@@ -10463,15 +6680,6 @@
       "license": "http://creativecommons.org/licenses/by/3.0/"
     },
     {
-      "sample": "snoring_4-197454-B-28",
-      "category": "snoring",
-      "dataset": "ESC-50",
-      "source_file": "4-197454-B-28.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/197454/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "gun_shot_216315",
       "category": "gun shot",
       "dataset": "TUT Rare Sound Events 2017 / Freesound",
@@ -10481,15 +6689,6 @@
       "license": "http://creativecommons.org/licenses/by/3.0/"
     },
     {
-      "sample": "clapping_3-130330-A-22",
-      "category": "clapping",
-      "dataset": "ESC-50",
-      "source_file": "3-130330-A-22.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/130330/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
       "sample": "glass_break_216281",
       "category": "glass break",
       "dataset": "TUT Rare Sound Events 2017 / Freesound",
@@ -10497,24 +6696,6 @@
       "creator": "RSilveira_88",
       "source_url": "https://www.freesound.org/people/RSilveira_88/sounds/216281/",
       "license": "http://creativecommons.org/licenses/by/3.0/"
-    },
-    {
-      "sample": "pig_3-253084-E-2",
-      "category": "pig",
-      "dataset": "ESC-50",
-      "source_file": "3-253084-E-2.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/253084/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
-    },
-    {
-      "sample": "siren_5-117118-A-42",
-      "category": "siren",
-      "dataset": "ESC-50",
-      "source_file": "5-117118-A-42.wav",
-      "creator": "ESC-50 / original Freesound contributors",
-      "source_url": "https://freesound.org/s/117118/",
-      "license": "Creative Commons Attribution-NonCommercial (CC BY-NC)"
     },
     {
       "sample": "car_horn_1-26176-A-43",
@@ -10533,6 +6714,470 @@
       "creator": "carolgee",
       "source_url": "https://www.freesound.org/people/carolgee/sounds/202730/",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "mining_summary": {
+    "dataset": {
+      "samples": 800,
+      "samples_per_robot": {
+        "G1": 400,
+        "Go1": 400
+      },
+      "duration_sec": 5,
+      "sample_rate": 16000,
+      "environment_source": "FSD50K eval",
+      "true_ego_only": 400,
+      "mixed_environment_ego": 400,
+      "mixed_snr_min_db": -10.0,
+      "mixed_snr_max_db": 10.0
+    },
+    "method": "Prompt-Anchered Ego-Noise Mining",
+    "overall": {
+      "mined": 436,
+      "precision": 91.0818521308177,
+      "recall": 99.15,
+      "f1": 94.9340934799696,
+      "accuracy": 94.69999999999999
+    },
+    "robots": [
+      {
+        "robot": "G1",
+        "samples": 400,
+        "mined": 214,
+        "precision": 92.91625463766418,
+        "recall": 99.49999999999999,
+        "f1": 96.091824029344,
+        "accuracy": 95.95
+      },
+      {
+        "robot": "Go1",
+        "samples": 400,
+        "mined": 221,
+        "precision": 89.38460161690811,
+        "recall": 98.80000000000001,
+        "f1": 93.81711352532204,
+        "accuracy": 93.45000000000002
+      }
+    ]
+  },
+  "summary_tables": [
+    {
+      "title": "Mining Robustness Study",
+      "kind": "mining",
+      "description": "Prompt-Anchered Ego-Noise Mining is evaluated under four environment-plus-ego SNR sampling conditions. Higher values are better.",
+      "note": "Values show mean clustering accuracy, precision, recall, and F1 over five mining runs; labels are used only for evaluation.",
+      "metrics": [
+        {
+          "key": "Accuracy (%)",
+          "label": "Accuracy"
+        },
+        {
+          "key": "Precision (%)",
+          "label": "Precision"
+        },
+        {
+          "key": "Recall (%)",
+          "label": "Recall"
+        },
+        {
+          "key": "F1 (%)",
+          "label": "F1"
+        }
+      ],
+      "columns": [
+        {
+          "key": "baseline",
+          "label": "Uniform [-10, 10]",
+          "snr_min_db": -10.0,
+          "snr_max_db": 10.0
+        },
+        {
+          "key": "wide",
+          "label": "wide Uniform [-20, 20]",
+          "snr_min_db": -20.0,
+          "snr_max_db": 20.0
+        },
+        {
+          "key": "low_biased",
+          "label": "low-biased [-20, 0]",
+          "snr_min_db": -20.0,
+          "snr_max_db": 0.0
+        },
+        {
+          "key": "high_biased",
+          "label": "high-biased [0, 20]",
+          "snr_min_db": 0.0,
+          "snr_max_db": 20.0
+        }
+      ],
+      "rows": [
+        {
+          "method": "all",
+          "label": "All Robots",
+          "cells": [
+            {
+              "condition": "baseline",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 94.69999999999999,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 91.0818521308177,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 99.15,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 94.9340934799696,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "wide",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 89.2,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 83.07672185745236,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 98.5,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 90.12058407553538,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "low_biased",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 67.875,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 80.12659141288239,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 49.35000000000001,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 58.792010097694394,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "high_biased",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 98.375,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 97.09783081899182,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 99.75,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 98.40194652862996,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "G1",
+          "label": "G1",
+          "cells": [
+            {
+              "condition": "baseline",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 95.95,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 92.91625463766418,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 99.49999999999999,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 96.091824029344,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "wide",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 90.04999999999998,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 83.50986691611753,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 99.9,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 90.95858045361315,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "low_biased",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 69.65,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 83.3000020199938,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 51.5,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 56.16283904381528,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "high_biased",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 98.79999999999998,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 97.6630841247672,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 100.0,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 98.81600657835776,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "Go1",
+          "label": "Go1",
+          "cells": [
+            {
+              "condition": "baseline",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 93.45000000000002,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 89.38460161690811,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 98.80000000000001,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 93.81711352532204,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "wide",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 88.35000000000001,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 82.72038767280291,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 97.10000000000001,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 89.28663656274549,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "low_biased",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 66.10000000000001,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 80.60390095210579,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 47.199999999999996,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 50.01091661091568,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "condition": "high_biased",
+              "metrics": [
+                {
+                  "metric": "Accuracy (%)",
+                  "label": "Accuracy",
+                  "value": 97.95,
+                  "best": false
+                },
+                {
+                  "metric": "Precision (%)",
+                  "label": "Precision",
+                  "value": 96.55928299348844,
+                  "best": false
+                },
+                {
+                  "metric": "Recall (%)",
+                  "label": "Recall",
+                  "value": 99.50000000000001,
+                  "best": false
+                },
+                {
+                  "metric": "F1 (%)",
+                  "label": "F1",
+                  "value": 97.99532656635176,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
