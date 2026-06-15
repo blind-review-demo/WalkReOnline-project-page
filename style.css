@@ -382,8 +382,19 @@ footer {
 
 .samples {
   display: grid;
-  gap: 28px;
+  gap: 42px;
   padding-bottom: 44px;
+}
+
+.demo-group {
+  display: grid;
+  gap: 22px;
+}
+
+.demo-group > h2 {
+  margin: 0;
+  font-size: 1.7rem;
+  line-height: 1.18;
 }
 
 .project-page-section {
@@ -395,9 +406,10 @@ footer {
   margin-top: 8px;
 }
 
-.project-page-section > h2 {
+.project-page-section > h3 {
   margin: 6px 0 -8px;
-  font-size: 1.55rem;
+  font-size: 1.28rem;
+  line-height: 1.25;
 }
 
 .sample {
@@ -653,8 +665,12 @@ footer {
   }
 
   .section h2,
-  .project-page-section > h2 {
+  .demo-group > h2 {
     font-size: 1.38rem;
+  }
+
+  .project-page-section > h3 {
+    font-size: 1.12rem;
   }
 
   .summary-table table {

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Learning to Hear While Walking</title>
-    <link rel="stylesheet" href="style.css?v=20260615-walkre-mining" />
+    <link rel="stylesheet" href="style.css?v=20260615-overall-demo" />
   </head>
   <body>
     <header class="hero">
@@ -92,21 +92,22 @@
 
       <section class="section section--results" aria-labelledby="resultsTitle">
         <div class="section__copy">
-          <h2 id="resultsTitle">Mining Study Evaluation</h2>
+          <h2 id="resultsTitle">Overall Evaluation</h2>
           <p>
-            We evaluate Prompt-Anchered Ego-Noise Mining on unlabeled adaptation clips from Unitree G1
-            and Unitree Go1. The labels are used only for evaluation: the mining algorithm receives
-            robot recordings and ego-noise prompts, then predicts which clips contain ego-noise only.
+            We evaluate ego-noise separation on environmental sounds mixed with robot ego-noise from
+            Unitree G1 and Unitree Go1 at -6, 0, and +6 dB SNR. Tables report anomalous sound
+            classification performance (Accuracy and AUROC) and separation performance (CLAP Score
+            and SAJ Score) by method, robot, and SNR; the best value in each robot-SNR column is shown
+            in bold.
           </p>
         </div>
-        <div id="miningSummary" class="mining-summary"></div>
         <div id="evaluationTables" class="evaluation-tables"></div>
       </section>
 
-      <section class="section section--legend" aria-labelledby="demoTitle">
+      <section class="section section--legend" aria-labelledby="demoLegendTitle">
         <div>
-          <h2 id="demoTitle">Demo: Zero-Shot Sound Classification After Ego-Noise Separation</h2>
-          <p>Each set shows references first, followed by separated target estimates from each method.</p>
+          <h2 id="demoLegendTitle">Demo</h2>
+          <p>Each example shows references first, followed by separated target estimates from each method.</p>
           <p class="score-note">
             CLAP Score is the CLAP audio embedding cosine similarity between the target and the
             separated estimate. SAJ Score is the overall separation judgment score. Higher is better.
@@ -144,6 +145,6 @@
       <p>Generated from the current WalkReOnline experiment outputs.</p>
     </footer>
 
-    <script src="script.js?v=20260615-walkre-mining"></script>
+    <script src="script.js?v=20260615-overall-demo"></script>
   </body>
 </html>

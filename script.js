@@ -3,8 +3,7 @@ const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
 const attributionRows = document.querySelector("#attributionRows");
 const evaluationTables = document.querySelector("#evaluationTables");
-const miningSummary = document.querySelector("#miningSummary");
-const dataUrl = "assets/data/project-data.json?v=20260615-walkre-mining";
+const dataUrl = "assets/data/project-data.json?v=20260615-overall-demo";
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
@@ -28,7 +27,7 @@ function trackNode(track) {
         }</span>`
       : "";
   const prediction = track.prediction
-    ? `<span class="track__prediction">Prediction Top-3: ${track.prediction}</span>`
+    ? `<span class="track__prediction">Prediction: ${track.prediction}</span>`
     : "";
   const scores =
     typeof track.cap_score === "number" || typeof track.saj_score === "number"
@@ -82,8 +81,36 @@ function sampleNode(sample, index) {
 function projectPageSectionNode(section) {
   const wrapper = document.createElement("section");
   wrapper.className = "project-page-section";
+  if (section.title) {
+    const title = document.createElement("h3");
+    title.textContent = section.title;
+    wrapper.append(title);
+  }
   wrapper.append(...section.samples.map(sampleNode));
   return wrapper;
+}
+
+function demoGroupNode(title, sections) {
+  const wrapper = document.createElement("section");
+  wrapper.className = "demo-group";
+  const heading = document.createElement("h2");
+  heading.textContent = title;
+  wrapper.append(heading, ...sections.map(projectPageSectionNode));
+  return wrapper;
+}
+
+function demoSectionsNode(sections) {
+  const separationTitles = new Set(["Speech Separation", "Music Separation"]);
+  const separationSections = sections.filter(section => separationTitles.has(section.title));
+  const classificationSections = sections.filter(section => !separationTitles.has(section.title));
+  const groups = [];
+  if (separationSections.length) {
+    groups.push(demoGroupNode("Demo: Ego-Noise Separation", separationSections));
+  }
+  if (classificationSections.length) {
+    groups.push(demoGroupNode("Demo: Anomalous Sound Classification After Ego-Noise Separation", classificationSections));
+  }
+  return groups;
 }
 
 function metricValueNode(metric) {
@@ -93,76 +120,6 @@ function metricValueNode(metric) {
   const value = fmtScore(metric.value);
   const content = metric.best ? `<strong>${value}</strong>` : value;
   return `<span class="metric-value"><span>${metric.label}:</span> ${content}</span>`;
-}
-
-function miningSummaryNode(summary) {
-  const dataset = summary?.dataset || {};
-  const overall = summary?.overall || {};
-  const robotRows = summary?.robots || [];
-  if (!summary) {
-    return document.createDocumentFragment();
-  }
-
-  const perRobot = Object.entries(dataset.samples_per_robot || {})
-    .map(([robot, count]) => `${robot}: ${fmtInt(count)}`)
-    .join(", ");
-  const clipSpec = [
-    Number.isFinite(dataset.duration_sec) ? `${dataset.duration_sec.toFixed(0)} s` : null,
-    dataset.sample_rate ? `${fmtInt(Number(dataset.sample_rate))} Hz` : null,
-  ].filter(Boolean).join(", ");
-
-  const section = document.createElement("section");
-  section.className = "mining-summary__panel";
-  section.innerHTML = `
-    <div class="mining-summary__copy">
-      <h3>Ego-Noise Mining Dataset</h3>
-      <p>
-        Mining uses ${fmtInt(dataset.samples)} adaptation clips (${perRobot}) built from
-        ${dataset.environment_source || "the adaptation environmental dataset"} and the train split of
-        each robot's ego-noise recordings. Clips are ${clipSpec}; the validation labels contain
-        ${fmtInt(dataset.true_ego_only)} ego-only clips and ${fmtInt(dataset.mixed_environment_ego)}
-        environment-plus-ego clips, with SNR randomly sampled from
-        ${dataset.mixed_snr_min_db} dB to ${dataset.mixed_snr_max_db} dB.
-      </p>
-    </div>
-    <div class="mining-summary__metrics" aria-label="Mining precision results">
-      <div class="mining-summary__overall">
-        <span>Overall mining accuracy</span>
-        <strong>${fmtPercent(overall.accuracy)}</strong>
-        <span>Precision ${fmtPercent(overall.precision)} / Recall ${fmtPercent(overall.recall)} / F1 ${fmtPercent(overall.f1)}</span>
-        <span>${fmtInt(overall.mined)} clips mined as ego-only</span>
-      </div>
-      <div class="mining-summary__table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Robot</th>
-              <th>Samples</th>
-              <th>Mined</th>
-              <th>Precision</th>
-              <th>Recall</th>
-              <th>F1</th>
-              <th>Accuracy</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${robotRows.map(row => `
-              <tr>
-                <th>${row.robot}</th>
-                <td>${fmtInt(row.samples)}</td>
-                <td>${fmtInt(row.mined)}</td>
-                <td>${fmtPercent(row.precision)}</td>
-                <td>${fmtPercent(row.recall)}</td>
-                <td>${fmtPercent(row.f1)}</td>
-                <td>${fmtPercent(row.accuracy)}</td>
-              </tr>
-            `).join("")}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  `;
-  return section;
 }
 
 function summaryTableNode(table) {
@@ -231,8 +188,7 @@ fetch(dataUrl)
     colorbarImage.src = data.spectrogram.colorbar;
     colorbarCaption.textContent = `${data.spectrogram.db_min} to ${data.spectrogram.db_max} dBFS`;
     const sections = data.sections || [{ title: "Audio Examples", samples: data.samples || [] }];
-    miningSummary.replaceChildren(miningSummaryNode(data.mining_summary));
     evaluationTables.replaceChildren(...(data.summary_tables || []).map(summaryTableNode));
-    samplesRoot.replaceChildren(...sections.map(projectPageSectionNode));
+    samplesRoot.replaceChildren(...demoSectionsNode(sections));
     attributionRows.replaceChildren(...(data.attributions || []).map(attributionNode));
   });

@@ -6716,217 +6716,161 @@
       "license": "http://creativecommons.org/publicdomain/zero/1.0/"
     }
   ],
-  "mining_summary": {
-    "dataset": {
-      "samples": 800,
-      "samples_per_robot": {
-        "G1": 400,
-        "Go1": 400
-      },
-      "duration_sec": 5,
-      "sample_rate": 16000,
-      "environment_source": "FSD50K eval",
-      "true_ego_only": 400,
-      "mixed_environment_ego": 400,
-      "mixed_snr_min_db": -10.0,
-      "mixed_snr_max_db": 10.0
-    },
-    "method": "Prompt-Anchered Ego-Noise Mining",
-    "overall": {
-      "mined": 436,
-      "precision": 91.0818521308177,
-      "recall": 99.15,
-      "f1": 94.9340934799696,
-      "accuracy": 94.69999999999999
-    },
-    "robots": [
-      {
-        "robot": "G1",
-        "samples": 400,
-        "mined": 214,
-        "precision": 92.91625463766418,
-        "recall": 99.49999999999999,
-        "f1": 96.091824029344,
-        "accuracy": 95.95
-      },
-      {
-        "robot": "Go1",
-        "samples": 400,
-        "mined": 221,
-        "precision": 89.38460161690811,
-        "recall": 98.80000000000001,
-        "f1": 93.81711352532204,
-        "accuracy": 93.45000000000002
-      }
-    ]
-  },
   "summary_tables": [
     {
-      "title": "Mining Robustness Study",
-      "kind": "mining",
-      "description": "Prompt-Anchered Ego-Noise Mining is evaluated under four environment-plus-ego SNR sampling conditions. Higher values are better.",
-      "note": "Values show mean clustering accuracy, precision, recall, and F1 over five mining runs; labels are used only for evaluation.",
+      "title": "Separation Performance",
+      "kind": "separation",
       "metrics": [
         {
-          "key": "Accuracy (%)",
-          "label": "Accuracy"
+          "key": "CLAP",
+          "label": "CLAP Score"
         },
         {
-          "key": "Precision (%)",
-          "label": "Precision"
-        },
-        {
-          "key": "Recall (%)",
-          "label": "Recall"
-        },
-        {
-          "key": "F1 (%)",
-          "label": "F1"
+          "key": "SAJ_Overall",
+          "label": "SAJ Score"
         }
       ],
       "columns": [
         {
-          "key": "baseline",
-          "label": "Uniform [-10, 10]",
-          "snr_min_db": -10.0,
-          "snr_max_db": 10.0
+          "robot": "G1",
+          "snr": -6,
+          "label": "G1 -6 dB"
         },
         {
-          "key": "wide",
-          "label": "wide Uniform [-20, 20]",
-          "snr_min_db": -20.0,
-          "snr_max_db": 20.0
+          "robot": "G1",
+          "snr": 0,
+          "label": "G1 +0 dB"
         },
         {
-          "key": "low_biased",
-          "label": "low-biased [-20, 0]",
-          "snr_min_db": -20.0,
-          "snr_max_db": 0.0
+          "robot": "G1",
+          "snr": 6,
+          "label": "G1 +6 dB"
         },
         {
-          "key": "high_biased",
-          "label": "high-biased [0, 20]",
-          "snr_min_db": 0.0,
-          "snr_max_db": 20.0
+          "robot": "Go1",
+          "snr": -6,
+          "label": "Go1 -6 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 0,
+          "label": "Go1 +0 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 6,
+          "label": "Go1 +6 dB"
         }
       ],
       "rows": [
         {
-          "method": "all",
-          "label": "All Robots",
+          "method": "no_preprocessing",
+          "label": "No Processing",
           "cells": [
             {
-              "condition": "baseline",
+              "robot": "G1",
+              "snr": -6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 94.69999999999999,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.38274948,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 91.0818521308177,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 99.15,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 94.9340934799696,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.43562358,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "wide",
+              "robot": "G1",
+              "snr": 0,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 89.2,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.50445086,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 83.07672185745236,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 98.5,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 90.12058407553538,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.37125103,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "low_biased",
+              "robot": "G1",
+              "snr": 6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 67.875,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.62837306,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 80.12659141288239,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 49.35000000000001,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 58.792010097694394,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.39622632,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "high_biased",
+              "robot": "Go1",
+              "snr": -6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 98.375,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.22509407,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 97.09783081899182,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.46492598,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.36059224,
                   "best": false
                 },
                 {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 99.75,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.40227955,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.5187999,
                   "best": false
                 },
                 {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 98.40194652862996,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.41060588,
                   "best": false
                 }
               ]
@@ -6934,121 +6878,113 @@
           ]
         },
         {
-          "method": "G1",
-          "label": "G1",
+          "method": "Sam-Audio",
+          "label": "SAM-Audio",
           "cells": [
             {
-              "condition": "baseline",
+              "robot": "G1",
+              "snr": -6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 95.95,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.44889392,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 92.91625463766418,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 99.49999999999999,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 96.091824029344,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.64760781,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "wide",
+              "robot": "G1",
+              "snr": 0,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 90.04999999999998,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.49580506,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 83.50986691611753,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 99.9,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 90.95858045361315,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.77676188,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "low_biased",
+              "robot": "G1",
+              "snr": 6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 69.65,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.49222151,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 83.3000020199938,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 51.5,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 56.16283904381528,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.56897585,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "high_biased",
+              "robot": "Go1",
+              "snr": -6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 98.79999999999998,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.36213484,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 97.6630841247672,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.53868851,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.49066115,
                   "best": false
                 },
                 {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 100.0,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.8183869,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.49053436,
                   "best": false
                 },
                 {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 98.81600657835776,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.59777354,
                   "best": false
                 }
               ]
@@ -7056,122 +6992,1416 @@
           ]
         },
         {
-          "method": "Go1",
-          "label": "Go1",
+          "method": "clapsep",
+          "label": "CLAPSep",
           "cells": [
             {
-              "condition": "baseline",
+              "robot": "G1",
+              "snr": -6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 93.45000000000002,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.43707107,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 89.38460161690811,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 98.80000000000001,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 93.81711352532204,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.92419008,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "wide",
+              "robot": "G1",
+              "snr": 0,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 88.35000000000001,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.64746342,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 82.72038767280291,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 97.10000000000001,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 89.28663656274549,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.16296219,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "low_biased",
+              "robot": "G1",
+              "snr": 6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
-                  "label": "Accuracy",
-                  "value": 66.10000000000001,
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.70663849,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 80.60390095210579,
-                  "best": false
-                },
-                {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 47.199999999999996,
-                  "best": false
-                },
-                {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 50.01091661091568,
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.10962661,
                   "best": false
                 }
               ]
             },
             {
-              "condition": "high_biased",
+              "robot": "Go1",
+              "snr": -6,
               "metrics": [
                 {
-                  "metric": "Accuracy (%)",
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.35844207,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.93987334,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.65329215,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.43196075,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.7300844,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.5635862,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_convtasnet",
+          "label": "Conv-TasNet",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.55564876,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.22504849,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.68754667,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.50363587,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.79164652,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.62726098,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.47150934,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.09178659,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.62608909,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.34595827,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.75321882,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.49976707,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_dprnn_tf",
+          "label": "Dual-Path RNN",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.55630131,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.37350259,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.68098585,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.64640239,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.76634107,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.76083896,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.4228505,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.82374625,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.56865493,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.00034092,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.6862876,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.25933026,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_conformer",
+          "label": "Conformer",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.56049706,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.40677841,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.69681474,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.65364678,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.79557249,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.74510062,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.44693984,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.0894196,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.60020911,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.29368481,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.71805298,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.44380818,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "EgoSep",
+          "label": "Ours",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.60920125,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.78105573,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.71857263,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 4.07979337,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.79220165,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 4.11919912,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.52812296,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.51401843,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.66209847,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.82136167,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.7427917,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.95033148,
+                  "best": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Anomalous Sound Classification Performance",
+      "kind": "classification",
+      "metrics": [
+        {
+          "key": "Accuracy",
+          "label": "Accuracy"
+        },
+        {
+          "key": "AUROC",
+          "label": "AUROC"
+        }
+      ],
+      "columns": [
+        {
+          "robot": "G1",
+          "snr": -6,
+          "label": "G1 -6 dB"
+        },
+        {
+          "robot": "G1",
+          "snr": 0,
+          "label": "G1 +0 dB"
+        },
+        {
+          "robot": "G1",
+          "snr": 6,
+          "label": "G1 +6 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": -6,
+          "label": "Go1 -6 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 0,
+          "label": "Go1 +0 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 6,
+          "label": "Go1 +6 dB"
+        }
+      ],
+      "rows": [
+        {
+          "method": "no_preprocessing",
+          "label": "No Processing",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
                   "label": "Accuracy",
-                  "value": 97.95,
+                  "value": 0.766,
                   "best": false
                 },
                 {
-                  "metric": "Precision (%)",
-                  "label": "Precision",
-                  "value": 96.55928299348844,
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.862432,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.846,
                   "best": false
                 },
                 {
-                  "metric": "Recall (%)",
-                  "label": "Recall",
-                  "value": 99.50000000000001,
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.919448,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.91,
                   "best": false
                 },
                 {
-                  "metric": "F1 (%)",
-                  "label": "F1",
-                  "value": 97.99532656635176,
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.962056,
                   "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.742,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.852936,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.838,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.924512,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.88,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.965576,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "Sam-Audio",
+          "label": "SAM-Audio",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.764,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.808712,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.76,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.799384,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.746,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.753088,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.748,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.847736,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.802,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.874392,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.732,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.782208,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "clapsep",
+          "label": "CLAPSep",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.76,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.828256,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.866,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.912368,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.846,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.932512,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.772,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.852816,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.862,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.944336,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.9,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.964816,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_convtasnet",
+          "label": "Conv-TasNet",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.822,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.920704,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.91,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.973768,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.944,
+                  "best": true
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.99012,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.74,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.879128,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.878,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.954856,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.924,
+                  "best": true
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.976808,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_dprnn_tf",
+          "label": "Dual-Path RNN",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.82,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.920944,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.912,
+                  "best": true
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.961608,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.916,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.975832,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.73,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.861704,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.842,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.927472,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.9,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.95828,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_conformer",
+          "label": "Conformer",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.826,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.916936,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.9,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.964192,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.914,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.983,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.766,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.883512,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.872,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.948688,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.908,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.966488,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "EgoSep",
+          "label": "Ours",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.892,
+                  "best": true
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.954416,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.904,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.9792,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.916,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.985336,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.84,
+                  "best": true
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.914472,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.89,
+                  "best": true
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.96496,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.904,
+                  "best": false
+                },
+                {
+                  "metric": "AUROC",
+                  "label": "AUROC",
+                  "value": 0.97716,
+                  "best": true
                 }
               ]
             }
