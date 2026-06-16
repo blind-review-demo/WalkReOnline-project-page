@@ -10011,6 +10011,1700 @@
       ]
     }
   ],
+  "summary_tables": [
+    {
+      "title": "Separation Performance",
+      "kind": "separation",
+      "metrics": [
+        {
+          "key": "CLAP",
+          "label": "CLAP Score"
+        },
+        {
+          "key": "SAJ_Overall",
+          "label": "SAJ Score"
+        }
+      ],
+      "columns": [
+        {
+          "robot": "G1",
+          "snr": -6.0,
+          "label": "G1 -6 dB"
+        },
+        {
+          "robot": "G1",
+          "snr": 0.0,
+          "label": "G1 +0 dB"
+        },
+        {
+          "robot": "G1",
+          "snr": 6.0,
+          "label": "G1 +6 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": -6.0,
+          "label": "Go1 -6 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 0.0,
+          "label": "Go1 +0 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 6.0,
+          "label": "Go1 +6 dB"
+        }
+      ],
+      "rows": [
+        {
+          "method": "no_preprocessing",
+          "label": "No Processing",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.38274948,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.43562358,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.50445086,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.37125103,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.62837306,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.39622632,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.22509407,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.46492598,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.36059224,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.40227955,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.5187999,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.41060588,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "Sam-Audio",
+          "label": "SAM-Audio",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.44544295,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.56195994,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.50151715,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.66333369,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.49337777,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.36221917,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.37534376,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.52340339,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.49429226,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.81370418,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.52131885,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.57935582,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "clapsep",
+          "label": "CLAPSep",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.43707107,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.92419008,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.64746342,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.16296219,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.70663849,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.10962661,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.35844207,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 1.93987334,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.65329215,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.43196075,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.7300844,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.5635862,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_convtasnet",
+          "label": "Conv-TasNet",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.55442948,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.21455215,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.68676613,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.50898113,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.79021976,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.62132049,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.47411267,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.15429152,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.62566107,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.37662171,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.7476303,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.49022096,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_dprnn_tf",
+          "label": "Dual-Path RNN",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.56542457,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.38022685,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.69272639,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.62490075,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.77740405,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.71023469,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.40908011,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 2.82936145,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.56177902,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.03215706,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.67965371,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.26675299,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_conformer",
+          "label": "Conformer",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.56597649,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.35282033,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.69715933,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.57859294,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.79419312,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.66569082,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.44044302,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.10135151,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.59684069,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.29062844,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.72074691,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.44361269,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "EgoSep",
+          "label": "EgoSep (Ours)",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.63182903,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.85519983,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.72766345,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 4.10635155,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.78658879,
+                  "best": false
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 4.1023885,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.55420262,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.56616232,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.69861303,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.89196055,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "CLAP",
+                  "label": "CLAP Score",
+                  "value": 0.75905469,
+                  "best": true
+                },
+                {
+                  "metric": "SAJ_Overall",
+                  "label": "SAJ Score",
+                  "value": 3.95732028,
+                  "best": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zero-Shot Classification Performance",
+      "kind": "classification",
+      "metrics": [
+        {
+          "key": "Accuracy",
+          "label": "Accuracy"
+        },
+        {
+          "key": "ROCAUC",
+          "label": "AUROC"
+        }
+      ],
+      "columns": [
+        {
+          "robot": "G1",
+          "snr": -6.0,
+          "label": "G1 -6 dB"
+        },
+        {
+          "robot": "G1",
+          "snr": 0.0,
+          "label": "G1 +0 dB"
+        },
+        {
+          "robot": "G1",
+          "snr": 6.0,
+          "label": "G1 +6 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": -6.0,
+          "label": "Go1 -6 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 0.0,
+          "label": "Go1 +0 dB"
+        },
+        {
+          "robot": "Go1",
+          "snr": 6.0,
+          "label": "Go1 +6 dB"
+        }
+      ],
+      "rows": [
+        {
+          "method": "no_preprocessing",
+          "label": "No Processing",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.766,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.862432,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.846,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.919448,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.91,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.962056,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.742,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.852936,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.838,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.924512,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.88,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.965576,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "Sam-Audio",
+          "label": "SAM-Audio",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.768,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.819392,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.754,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.784952,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.736,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.730352,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.712,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.806896,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.774,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.839968,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.768,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.833136,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "clapsep",
+          "label": "CLAPSep",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.76,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.828256,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.866,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.912368,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.846,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.932512,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.772,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.852816,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.862,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.944336,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.9,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.964816,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_convtasnet",
+          "label": "Conv-TasNet",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.818,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.92792,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.92,
+                  "best": true
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.97832,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.934,
+                  "best": true
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.989128,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.73,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.871864,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.868,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.947336,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.918,
+                  "best": true
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.973752,
+                  "best": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_dprnn_tf",
+          "label": "Dual-Path RNN",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.856,
+                  "best": true
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.932296,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.906,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.958456,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.92,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.97548,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.724,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.870992,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.854,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.936176,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.902,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.965296,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "espnet_conformer",
+          "label": "Conformer",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.842,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.927392,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.908,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.964512,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.92,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.982376,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.786,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.891688,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.87,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.949952,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.896,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.969672,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "method": "EgoSep",
+          "label": "EgoSep (Ours)",
+          "cells": [
+            {
+              "robot": "G1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.856,
+                  "best": true
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.930408,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.892,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.96456,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "G1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.906,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.96428,
+                  "best": false
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": -6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.838,
+                  "best": true
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.913728,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 0.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.904,
+                  "best": true
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.963208,
+                  "best": true
+                }
+              ]
+            },
+            {
+              "robot": "Go1",
+              "snr": 6.0,
+              "metrics": [
+                {
+                  "metric": "Accuracy",
+                  "label": "Accuracy",
+                  "value": 0.898,
+                  "best": false
+                },
+                {
+                  "metric": "ROCAUC",
+                  "label": "AUROC",
+                  "value": 0.965776,
+                  "best": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "attributions": [
     {
       "sample": "r00_speech-librivox-0121",

@@ -2,20 +2,27 @@
 
 ## Purpose
 
-This static page presents audio-only examples for the WalkReOnline experiment.
+This static page presents overall evaluation tables and audio-only examples for
+the WalkReOnline experiment.
 It is intended for GitHub Pages deployment from `docs/`.
 
-The page does not show accuracy tables or metric charts. Each audio example set compares
-the mixture, references, and separated target estimates with spectrograms.
+Overall evaluation tables report method-level means by robot and SNR, omit
+`clean_only`, round displayed values to two decimals, and bold the best value in
+each robot-SNR metric column. Each audio example set compares the mixture,
+references, and separated target estimates with spectrograms.
 
 ## Source Data
 
 The project page builder uses:
 
 - Sample-level results:
-  `/mnt/usb_ssd2tb/ExpLog/WalkReOnline_v5/online_summary/all_method_sample_level_results.csv`
+  `/mnt/usb_ssd2tb/ExpLog/WalkReOnline_v12/cross_site/online_summary/all_method_sample_level_results.csv`
+- Overall evaluation scores:
+  `/mnt/usb_ssd2tb/ExpLog/WalkReOnline_v12/cross_site/online_summary/all_method_scores_long.csv`
 
-The path is defined in `src/config.py` as `ALL_METHOD_SAMPLE_LEVEL_RESULTS_CSV`.
+The paths are defined in `src/config.py` as
+`PROJECT_PAGE_GENERAL_SAMPLE_LEVEL_RESULTS_CSV` and
+`PROJECT_PAGE_SUMMARY_SCORES_CSV`.
 
 ## Generated Files
 

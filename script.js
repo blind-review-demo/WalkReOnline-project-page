@@ -3,7 +3,7 @@ const colorbarImage = document.querySelector("#colorbarImage");
 const colorbarCaption = document.querySelector("#colorbarCaption");
 const attributionRows = document.querySelector("#attributionRows");
 const evaluationTables = document.querySelector("#evaluationTables");
-const dataUrl = "assets/data/project-data.json?v=20260615-overall-demo";
+const dataUrl = "assets/data/project-data.json?v=20260616-overall-eval";
 
 function fmtScore(value) {
   return Number.isFinite(value) ? value.toFixed(2) : "N/A";
